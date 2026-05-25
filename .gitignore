@@ -1,0 +1,9 @@
+# Generated report output (built fresh by the GitHub Action each run)
+public/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env

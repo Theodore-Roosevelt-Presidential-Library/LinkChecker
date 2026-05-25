@@ -1,0 +1,75 @@
+name: Weekly link & spelling check
+
+on:
+  # Runs Sunday night (Monday 04:00 UTC ≈ Sunday 11pm/12am US Eastern).
+  schedule:
+    - cron: "0 4 * * 1"
+  # Allow manual runs from the Actions tab.
+  workflow_dispatch:
+  # Re-run automatically when the checker code or word-list changes.
+  push:
+    branches: [main]
+    paths:
+      - "checker/**"
+      - "run_check.py"
+      - "requirements.txt"
+      - "custom_words.txt"
+      - ".github/workflows/link-check.yml"
+
+# Permissions required to publish to GitHub Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deployment at a time; let a new run finish rather than cancelling.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run link & spelling check
+        env:
+          # Tune behaviour here without editing code. 0 = no page cap.
+          MAX_PAGES: "0"
+          CRAWL_WORKERS: "12"
+          LINK_WORKERS: "24"
+          ENABLE_SPELLCHECK: "1"
+        run: python run_check.py
+
+      - name: Upload report as a build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: public
+          retention-days: 30
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
