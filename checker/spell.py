@@ -1,17 +1,23 @@
 """Spell-check the visible prose of each crawled page.
 
-Approach (per the chosen "custom allow-list" strategy)
-------------------------------------------------------
-* Tokenize visible page text into candidate words.
-* Discard things that are not ordinary prose words: numbers, acronyms,
-  ALL-CAPS tokens, camelCase, URLs/emails, hyphen/possessive fragments, and
-  anything in the project allow-list (custom_words.txt) or standard dictionary.
-* What remains is "unknown". We split unknown words into two buckets:
-    - "likely typos": the dictionary has a close, higher-frequency correction
-      (these are the high-signal items worth fixing).
-    - "unknown words": no obvious correction — usually proper nouns or jargon
-      that should be added to the allow-list.
-* Track which pages each flagged word appears on so editors can find them.
+Precision-first approach (per the chosen "custom allow-list" strategy)
+----------------------------------------------------------------------
+False positives are the enemy here, so we are aggressive about *not* flagging
+things that aren't ordinary lower-case English prose:
+
+* Pages whose URL matches SPELLCHECK_EXCLUDE_PATTERNS (video/playlist pages)
+  are skipped entirely — YouTube titles/descriptions are pure noise.
+* We spell-check ``page.prose_text`` (nav/header/footer/link text already
+  stripped during crawl), not the full page text.
+* URLs, emails, and @handles are removed before tokenizing.
+* Curly apostrophes are normalized so "wasn’t" matches "wasn't".
+* By default only **all-lower-case** tokens are considered. Title-case and
+  ALL-CAPS tokens are treated as proper nouns / acronyms and skipped — this
+  removes the bulk of name-based false positives.
+* Numbers, camelCase, allow-list words, and dictionary words are dropped.
+
+Remaining unknowns are split into "likely typos" (a close correction exists)
+and "unknown words" (probably names/jargon to add to the allow-list).
 """
 from __future__ import annotations
 
@@ -25,10 +31,10 @@ from spellchecker import SpellChecker
 from . import config
 from .crawl import Page
 
+# Remove URLs, emails and @handles before tokenizing.
+_URL_RE = re.compile(r"https?://\S+|www\.\S+|\S+@\S+\.\S+|[@#]\w+", re.IGNORECASE)
 # A "word": letters with optional internal apostrophes/hyphens.
-WORD_RE = re.compile(r"[A-Za-z][A-Za-z'’\-]*[A-Za-z]|[A-Za-z]")
-
-# Tokens to ignore outright.
+WORD_RE = re.compile(r"[A-Za-z][A-Za-z'\-]*[A-Za-z]|[A-Za-z]")
 _HAS_DIGIT = re.compile(r"\d")
 _CAMEL = re.compile(r"[a-z][A-Z]")
 
@@ -49,7 +55,6 @@ def load_custom_words() -> set[str]:
     words: set[str] = set()
     path = config.CUSTOM_WORDS_FILE
     if not os.path.isabs(path):
-        # resolve relative to repo root (parent of this package)
         repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         path = os.path.join(repo_root, path)
     if os.path.exists(path):
@@ -63,23 +68,58 @@ def load_custom_words() -> set[str]:
     return words
 
 
+def _should_skip_page(url: str) -> bool:
+    low = url.lower()
+    return any(pat.lower() in low for pat in config.SPELLCHECK_EXCLUDE_PATTERNS)
+
+
+def _normalize(text: str) -> str:
+    # normalize curly punctuation, then strip URLs/emails/handles
+    text = text.replace("’", "'").replace("‘", "'")
+    return _URL_RE.sub(" ", text)
+
+
 def _strip_possessive(word: str) -> str:
-    return re.sub(r"[’']s$", "", word)
+    return re.sub(r"'s$", "", word)
 
 
 def _is_ignorable(token: str) -> bool:
+    """True if the token should never be spell-checked."""
     if len(token) < config.MIN_WORD_LEN:
         return True
     if _HAS_DIGIT.search(token):
         return True
-    if token.isupper():           # acronym, e.g. NARA, FAQ
+    if "'" in token and config.MIN_WORD_LEN > 0 and not token.replace("'", "").isalpha():
         return True
-    if _CAMEL.search(token):      # camelCase / mixedCase identifiers
+    if _CAMEL.search(token):           # camelCase / mixedCase identifiers
         return True
-    if token != token.lower() and token != token.capitalize():
-        # weird mixed casing that isn't simple Title Case
-        return True
+    if config.SPELLCHECK_LOWERCASE_ONLY:
+        # Only genuine lower-case prose words are candidates.
+        if token != token.lower():
+            return True
+    else:
+        if token.isupper():            # acronym
+            return True
+        if token != token.lower() and token != token.capitalize():
+            return True
     return False
+
+
+def _candidate_words(text: str) -> list[str]:
+    out: list[str] = []
+    for raw in WORD_RE.findall(text):
+        token = _strip_possessive(raw)
+        if not token:
+            continue
+        if "-" in token:
+            for part in token.split("-"):
+                if part and not _is_ignorable(part):
+                    out.append(part)
+            continue
+        if _is_ignorable(token):
+            continue
+        out.append(token)
+    return out
 
 
 def check_spelling(pages: dict[str, Page]) -> list[SpellIssue]:
@@ -93,35 +133,22 @@ def check_spelling(pages: dict[str, Page]) -> list[SpellIssue]:
     if custom:
         spell.word_frequency.load_words(custom)
 
-    # word -> {"count": int, "pages": {(url, title)}}
     agg: dict[str, dict] = defaultdict(lambda: {"count": 0, "pages": set()})
+    skipped = 0
 
     for url, page in pages.items():
-        if not page.text:
+        source = page.prose_text or page.text
+        if not source:
+            continue
+        if _should_skip_page(url):
+            skipped += 1
             continue
         title = page.title or url
-        # Candidate words: lowercase for the unknown-check, but keep originals
-        # so we can ignore acronyms / camelCase.
-        candidates: list[str] = []
-        for raw in WORD_RE.findall(page.text):
-            token = _strip_possessive(raw)
-            if "-" in token:
-                # Check hyphen parts individually; skip if any part is short.
-                parts = [p for p in token.split("-") if p]
-                for p in parts:
-                    if not _is_ignorable(p):
-                        candidates.append(p)
-                continue
-            if _is_ignorable(token):
-                continue
-            candidates.append(token)
-
+        candidates = _candidate_words(_normalize(source))
         if not candidates:
             continue
-
         lowered = [c.lower() for c in candidates]
-        unknown = spell.unknown(lowered)
-        for w in unknown:
+        for w in spell.unknown(lowered):
             if w in custom:
                 continue
             agg[w]["count"] += lowered.count(w)
@@ -140,8 +167,10 @@ def check_spelling(pages: dict[str, Page]) -> list[SpellIssue]:
             )
         )
 
-    # Likely typos first (have a suggested correction), then by frequency.
     issues.sort(key=lambda i: (not i.likely_typo, -i.count, i.word))
     typos = sum(1 for i in issues if i.likely_typo)
-    print(f"Spell-check complete: {len(issues)} flagged words ({typos} likely typos).")
+    print(
+        f"Spell-check complete: {len(issues)} flagged words "
+        f"({typos} likely typos); skipped {skipped} excluded page(s)."
+    )
     return issues

@@ -83,3 +83,24 @@ ENABLE_SPELLCHECK = os.environ.get("ENABLE_SPELLCHECK", "1").strip() not in {"0"
 # Words shorter than this are ignored by the spell checker.
 MIN_WORD_LEN = _int("MIN_WORD_LEN", 4)
 CUSTOM_WORDS_FILE = os.environ.get("CUSTOM_WORDS_FILE", "custom_words.txt")
+
+# Pages whose URL path matches any of these substrings are NOT spell-checked.
+# Video pages embed YouTube titles/descriptions full of names and jargon that
+# generate overwhelming false-positive noise. Links on these pages are still
+# validated — we just skip the prose. (Links ARE still checked on every page.)
+SPELLCHECK_EXCLUDE_PATTERNS = [
+    p.strip()
+    for p in os.environ.get(
+        "SPELLCHECK_EXCLUDE_PATTERNS",
+        "/video/,/videos/,/playlist,/watch",
+    ).split(",")
+    if p.strip()
+]
+
+# Only flag words that appear in genuine lower-case form. Title-case and
+# ALL-CAPS tokens are treated as proper nouns / acronyms and skipped. This is
+# the single biggest lever for cutting proper-name false positives. Set to 0
+# to also check capitalized words (much noisier).
+SPELLCHECK_LOWERCASE_ONLY = os.environ.get(
+    "SPELLCHECK_LOWERCASE_ONLY", "1"
+).strip() not in {"0", "false", "False", ""}

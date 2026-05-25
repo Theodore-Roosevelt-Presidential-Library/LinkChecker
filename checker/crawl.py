@@ -57,7 +57,8 @@ class Page:
     content_type: str = ""
     title: str = ""
     links: list[Link] = field(default_factory=list)
-    text: str = ""      # visible text, only populated for HTML pages
+    text: str = ""        # full visible text (HTML pages only)
+    prose_text: str = ""  # prose for spell-check: no nav/header/footer/links
 
 
 def normalize_url(url: str) -> str:
@@ -142,8 +143,24 @@ def extract_visible_text(soup: BeautifulSoup) -> str:
     return re.sub(r"\s+", " ", text)
 
 
-def parse_page(url: str, html: bytes) -> tuple[str, str, list[Link]]:
-    """Return (title, visible_text, links) for an HTML document."""
+# Tags whose text is navigation/boilerplate (or link text) rather than prose.
+# We drop these before extracting the text used for spell checking so that menu
+# items, footers, and link anchors don't pollute the results with proper nouns.
+PROSE_DROP_TAGS = ("nav", "header", "footer", "a", "aside", "form", "button")
+
+
+def extract_prose_text(soup: BeautifulSoup) -> str:
+    """Visible prose for spell checking: no nav/header/footer/link/aside text."""
+    clone = BeautifulSoup(str(soup), "lxml")
+    for tag in clone(list(NON_TEXT_TAGS) + list(PROSE_DROP_TAGS)):
+        tag.decompose()
+    container = clone.find("main") or clone.body or clone
+    text = container.get_text(separator=" ", strip=True)
+    return re.sub(r"\s+", " ", text)
+
+
+def parse_page(url: str, html: bytes) -> tuple[str, str, str, list[Link]]:
+    """Return (title, visible_text, prose_text, links) for an HTML document."""
     soup = BeautifulSoup(html, "lxml")
     title = soup.title.get_text(strip=True) if soup.title else ""
 
@@ -171,7 +188,8 @@ def parse_page(url: str, html: bytes) -> tuple[str, str, list[Link]]:
         )
 
     text = extract_visible_text(soup)
-    return title, text, links
+    prose = extract_prose_text(BeautifulSoup(html, "lxml"))
+    return title, text, prose, links
 
 
 def fetch_page(url: str) -> Page:
@@ -186,9 +204,10 @@ def fetch_page(url: str) -> Page:
         # The URL may have redirected; record links relative to the final URL.
         final_url = normalize_url(str(resp.url))
         if resp.status_code == 200 and "html" in page.content_type:
-            title, text, links = parse_page(final_url, resp.content)
+            title, text, prose, links = parse_page(final_url, resp.content)
             page.title = title
             page.text = text
+            page.prose_text = prose
             page.links = links
     except requests.RequestException as exc:
         page.error = f"{type(exc).__name__}: {exc}"

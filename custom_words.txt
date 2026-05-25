@@ -21,6 +21,8 @@ elliott
 medora
 dakota
 dakotas
+dakotan
+dakotans
 elkhorn
 maltese
 chimney
@@ -121,6 +123,30 @@ yellowstone
 yosemite
 appalachian
 
+# --- Common prefixes (avoid false positives on hyphenated words) ---
+multi
+non
+pre
+re
+co
+sub
+anti
+semi
+mid
+self
+inter
+cross
+over
+under
+post
+# --- Common modern words the base dictionary lacks ---
+immersive
+singletrack
+multipurpose
+walkable
+ticketed
+reopened
+livestreamed
 # --- Web / technical ---
 tech
 mocktails
