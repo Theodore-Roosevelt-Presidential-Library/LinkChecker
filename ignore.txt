@@ -1,0 +1,19 @@
+# ignore.txt — items permanently suppressed from the report (for everyone).
+#
+# These rules are applied when the report is generated, so anything listed here
+# never appears in the published page or the weekly run. (The "Ignore" button on
+# the report page hides items only in your own browser; copy those lines here to
+# make them permanent and shared.)
+#
+# Format — one rule per line, "#" starts a comment:
+#   word: <flagged word>              suppress this spelling everywhere
+#   link: <exact url>                 ignore this one link
+#   link-prefix: <url prefix>         ignore every link starting with this
+#
+# A bare line with no prefix is treated as a word. Words can also live in
+# custom_words.txt — either works.
+#
+# Examples (uncomment / edit as needed):
+# link: https://bsky.app/profile/trpl.bsky.social
+# link-prefix: https://www.linkedin.com/
+# word: rehumanize

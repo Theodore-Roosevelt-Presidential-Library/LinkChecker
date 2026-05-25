@@ -15,6 +15,7 @@ import time
 
 from checker import config
 from checker.crawl import crawl
+from checker.ignores import load_ignores
 from checker.links import validate_links
 from checker.report import write_report
 from checker.spell import check_spelling
@@ -33,6 +34,16 @@ def main() -> int:
 
     link_results = validate_links(pages)
     spell_issues = check_spelling(pages)
+
+    # Apply the committed ignore list (suppresses items for everyone).
+    print("Applying ignore rules...")
+    rules = load_ignores()
+    before_links, before_words = len(link_results), len(spell_issues)
+    link_results = [r for r in link_results if not rules.link_ignored(r.url)]
+    spell_issues = [i for i in spell_issues if not rules.word_ignored(i.word)]
+    dropped = (before_links - len(link_results)) + (before_words - len(spell_issues))
+    if dropped:
+        print(f"  suppressed {dropped} item(s) via {config.IGNORE_FILE}")
 
     write_report(len(pages), link_results, spell_issues)
 

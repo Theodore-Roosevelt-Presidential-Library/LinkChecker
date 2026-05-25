@@ -78,6 +78,17 @@ OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "public")
 DATA_FILENAME = "results.json"
 HTML_FILENAME = "index.html"
 
+# Repo slug + branch are used to build the "edit ignore.txt on GitHub" deep
+# link shown in the report's Ignored panel. Override via env if the repo moves.
+REPO_SLUG = os.environ.get(
+    "REPO_SLUG", "Theodore-Roosevelt-Presidential-Library/LinkChecker"
+)
+REPO_BRANCH = os.environ.get("REPO_BRANCH", "main")
+
+# Items listed in this file are suppressed from the report at generation time
+# (for everyone). See ignore.txt for the format.
+IGNORE_FILE = os.environ.get("IGNORE_FILE", "ignore.txt")
+
 # Spell-check tuning.
 ENABLE_SPELLCHECK = os.environ.get("ENABLE_SPELLCHECK", "1").strip() not in {"0", "false", "False", ""}
 # Words shorter than this are ignored by the spell checker.

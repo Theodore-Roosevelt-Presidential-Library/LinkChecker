@@ -14,6 +14,7 @@ on:
       - "run_check.py"
       - "requirements.txt"
       - "custom_words.txt"
+      - "ignore.txt"
       - ".github/workflows/link-check.yml"
 
 # Permissions required to publish to GitHub Pages.

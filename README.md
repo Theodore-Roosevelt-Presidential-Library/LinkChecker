@@ -48,12 +48,35 @@ This repo is ready to go; the only manual step is enabling Pages:
 
 That's it. The next workflow run will publish the report.
 
+## Ignoring items
+
+The report has two ways to dismiss an item (a link or a flagged word):
+
+1. **Ignore button (instant, your browser).** Every item has an **Ignore**
+   button that hides it immediately and remembers the choice in your browser
+   across weekly runs. Hidden items move to the **Ignored** tab, where you can
+   **Restore** them. This is per-browser/per-device and not shared.
+2. **`ignore.txt` (permanent, shared).** To suppress an item for everyone on
+   every run, add a line to [`ignore.txt`](ignore.txt) and commit:
+
+   ```
+   word: rehumanize                       # never flag this spelling
+   link: https://bsky.app/profile/...     # ignore this exact link
+   link-prefix: https://www.youtube.com/  # ignore every link under this prefix
+   ```
+
+   The **Ignored** tab makes this easy: it shows copy-ready `ignore.txt` lines
+   for everything you've ignored locally, plus an **Edit ignore.txt on GitHub**
+   button. Items listed in `ignore.txt` are filtered out at generation time, so
+   they never appear in the published report.
+
 ## Reducing spelling false positives
 
-Names, places, and jargon (e.g. *Sagamore*, *Medora*, donor surnames, video
-titles) will show up under **unknown words** the first time. To stop a word
-being flagged, add it (one per line) to [`custom_words.txt`](custom_words.txt)
-and commit — the change triggers a fresh run automatically.
+Names, places, and jargon (e.g. *Sagamore*, *Medora*, donor surnames) will show
+up under **unknown words**. To stop a word being flagged everywhere, add it (one
+per line) to [`custom_words.txt`](custom_words.txt) and commit — or use the
+**Ignore** button / `ignore.txt` as above. (Video/playlist pages are already
+excluded from spell checking, since YouTube titles generate heavy noise.)
 
 ## Running it locally
 
