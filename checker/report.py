@@ -143,6 +143,10 @@ word-break:break-all;color:var(--ink)}
 .word{font-size:17px;font-weight:700}
 .arrow{color:var(--muted)} .sugg{color:var(--green);font-weight:700}
 .meta{font-size:12.5px;color:var(--muted);margin-top:2px}
+.errmsg{font-size:12.5px;color:var(--red);margin-top:5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+word-break:break-word;overflow-wrap:anywhere;line-height:1.45}
+.tag{max-width:100%;overflow-wrap:anywhere}
 .sources{margin-top:9px;border-top:1px dashed var(--line);padding-top:9px}
 .sources summary{cursor:pointer;font-size:13px;color:var(--brand2);font-weight:600;
 list-style:none}
@@ -229,18 +233,25 @@ function sources(list, label){
 }
 
 function linkItem(r){
-  const status = r.error ? esc(r.error) : (r.status!=null ? r.status : '—');
+  let label, errBlock = '';
+  if(r.error){
+    const short = (r.error.split(/[:(]/)[0] || 'Error').trim().slice(0, 28);
+    label = esc(short || 'Error');
+    errBlock = `<div class="errmsg">${esc(r.error)}</div>`;
+  } else {
+    label = r.status!=null ? r.status : '—';
+  }
   const tagcls = r.error ? 'red' : (r.status>=400 ? 'red' : 'amber');
   const scope = r.internal ? 'internal' : 'external';
-  const search = (r.url+' '+status+' '+(r.sources||[]).map(s=>s.page).join(' ')).toLowerCase();
+  const search = (r.url+' '+(r.error||r.status||'')+' '+(r.sources||[]).map(s=>s.page).join(' ')).toLowerCase();
   const redir = r.final_url ? `<div class="meta">→ redirects to ${esc(r.final_url)}</div>` : '';
   return `<div class="item" data-s="${esc(search)}">
     <div class="item-main">
       <div class="row1">
-        <span class="tag ${tagcls}">${status}</span>
+        <span class="tag ${tagcls}">${label}</span>
         <span class="tag gray">${scope}</span>
         <span class="urlcode"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.url)}</a></span>
-      </div>${redir}${sources(r.sources)}
+      </div>${errBlock}${redir}${sources(r.sources)}
     </div>
     <button class="btn" data-ignore-kind="link" data-ignore-value="${esc(r.url)}">Ignore</button>
   </div>`;
