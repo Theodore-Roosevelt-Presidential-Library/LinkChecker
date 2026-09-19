@@ -30,7 +30,13 @@ Once GitHub Pages is enabled (see below), the latest report is at:
 https://theodore-roosevelt-presidential-library.github.io/LinkChecker/
 ```
 
-The raw machine-readable data is alongside it at `results.json`.
+The raw machine-readable data is alongside it at `results.json`. Each run also
+commits `public/results.json` and `public/index.html` back to this repo, so git
+history doubles as a week-by-week archive of results.
+
+> **Note:** GitHub disables scheduled workflows in repos with no commits for 60
+> days. The weekly commit above prevents that. If the schedule ever stops, open
+> **Actions → Weekly link & spelling check** and click **Enable workflow**.
 
 ## Schedule
 

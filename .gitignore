@@ -1,5 +1,10 @@
-# Generated report output (built fresh by the GitHub Action each run)
-public/
+# Generated report output. The GitHub Action commits the latest results.json
+# and index.html back to the repo each run (keeps a history and keeps the
+# scheduled workflow from being auto-disabled for inactivity).
+public/*
+!public/.nojekyll
+!public/results.json
+!public/index.html
 
 # Python
 __pycache__/
