@@ -39,6 +39,11 @@ NON_TEXT_TAGS = (
     "svg",
     "head",
     "template",
+    # iframe/object fallback content is parsed as raw text, so an "&nbsp;"
+    # placeholder inside an embed shows up as the literal word "nbsp".
+    "iframe",
+    "object",
+    "embed",
 )
 
 

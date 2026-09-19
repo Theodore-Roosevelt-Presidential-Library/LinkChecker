@@ -9,6 +9,10 @@
 #   word: <flagged word>              suppress this spelling everywhere
 #   link: <exact url>                 ignore this one link
 #   link-prefix: <url prefix>         ignore every link starting with this
+#   link-host: <hostname>             ignore every link on this host and its subdomains
+#   page-pattern: <url substring>     ignore links FOUND ON pages whose URL contains this
+#                                     (a link is only dropped if every page referencing
+#                                     it is excluded; spelling is unaffected)
 #
 # A bare line with no prefix is treated as a word. Words can also live in
 # custom_words.txt — either works.
@@ -16,4 +20,11 @@
 # Examples (uncomment / edit as needed):
 # link: https://bsky.app/profile/trpl.bsky.social
 # link-prefix: https://www.linkedin.com/
+# link-host: newspapers.com
 # word: rehumanize
+
+# --- Active rules -----------------------------------------------------------
+
+# Video pages carry links pasted in from YouTube descriptions (old bit.ly
+# shortlinks, retired NPS pages, etc.). Those aren't ours to fix in Drupal.
+page-pattern: /video/

@@ -33,8 +33,11 @@ from .crawl import Page
 
 # Remove URLs, emails and @handles before tokenizing.
 _URL_RE = re.compile(r"https?://\S+|www\.\S+|\S+@\S+\.\S+|[@#]\w+", re.IGNORECASE)
-# A "word": letters with optional internal apostrophes/hyphens.
-WORD_RE = re.compile(r"[A-Za-z][A-Za-z'\-]*[A-Za-z]|[A-Za-z]")
+# A "word": letters (any script, so accented names like "Snøhetta" or
+# "Cândido" stay whole instead of splitting at the accent) with optional
+# internal apostrophes/hyphens.
+_L = r"[^\W\d_]"
+WORD_RE = re.compile(rf"{_L}(?:{_L}|['\-])*{_L}|{_L}")
 _HAS_DIGIT = re.compile(r"\d")
 _CAMEL = re.compile(r"[a-z][A-Z]")
 

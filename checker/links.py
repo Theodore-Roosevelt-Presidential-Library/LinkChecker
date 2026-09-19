@@ -6,6 +6,7 @@ URL so a link referenced from 50 pages is only checked once.
 """
 from __future__ import annotations
 
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from urllib.parse import urlparse
@@ -104,7 +105,50 @@ def validate_links(pages: dict[str, Page]) -> list[LinkResult]:
             if done % 100 == 0 or done == len(index):
                 print(f"  checked {done}/{len(index)} links")
 
+    results = _recheck_transient(results)
+
     broken = sum(1 for r in results if r.category == "broken")
     warn = sum(1 for r in results if r.category == "warning")
     print(f"Link check complete: {broken} broken, {warn} warnings.")
+    return results
+
+
+def _is_transient(r: LinkResult) -> bool:
+    """Failures that are often a blip: connection errors, timeouts, 5xx, 429."""
+    if r.ok:
+        return False
+    if r.status is None:
+        return True  # ConnectionError / Timeout / SSLError
+    return r.status >= 500 or r.status == 429
+
+
+def _recheck_transient(results: list[LinkResult]) -> list[LinkResult]:
+    """Re-test transient failures once more, slowly, before reporting them.
+
+    A host that was down (or rate-limiting us) for a minute during the fast
+    parallel pass otherwise shows up as dozens of "broken" links. This pass
+    waits, then re-checks those URLs one host at a time with a polite pause.
+    """
+    todo = [r for r in results if _is_transient(r)]
+    if not todo:
+        return results
+    print(f"Re-checking {len(todo)} transient failure(s) after "
+          f"{config.RECHECK_DELAY:.0f}s pause...")
+    time.sleep(config.RECHECK_DELAY)
+    todo.sort(key=lambda r: urlparse(r.url).hostname or "")
+    fixed = 0
+    last_host = None
+    for r in todo:
+        host = urlparse(r.url).hostname
+        if host == last_host:
+            time.sleep(config.RECHECK_HOST_PAUSE)
+        last_host = host
+        again = _check_one(r.url)
+        if again.ok or (again.status is not None and not _is_transient(again)):
+            # Take the newer, more definitive answer.
+            r.status, r.ok, r.warn = again.status, again.ok, again.warn
+            r.error, r.final_url = again.error, again.final_url
+            if again.ok:
+                fixed += 1
+    print(f"  {fixed} recovered on re-check; {len(todo) - fixed} still failing.")
     return results

@@ -56,6 +56,11 @@ LINK_WORKERS = _int("LINK_WORKERS", 24)
 
 # Network behaviour.
 REQUEST_TIMEOUT = _float("REQUEST_TIMEOUT", 20.0)
+# After the parallel pass, transient failures (connection errors, timeouts,
+# 5xx, 429) are re-checked once more, slowly: wait this long first, then pause
+# this long between consecutive requests to the same host.
+RECHECK_DELAY = _float("RECHECK_DELAY", 60.0)
+RECHECK_HOST_PAUSE = _float("RECHECK_HOST_PAUSE", 1.5)
 CRAWL_DELAY = _float("CRAWL_DELAY", 0.0)  # politeness pause between page fetches
 MAX_RETRIES = _int("MAX_RETRIES", 2)
 

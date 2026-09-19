@@ -40,6 +40,16 @@ def main() -> int:
     rules = load_ignores()
     before_links, before_words = len(link_results), len(spell_issues)
     link_results = [r for r in link_results if not rules.link_ignored(r.url)]
+    # page-pattern rules: drop references coming from excluded pages (e.g.
+    # /video/ pages whose links are pasted in from YouTube descriptions). A link
+    # only disappears entirely if *every* page referencing it is excluded.
+    if rules.page_patterns:
+        kept = []
+        for r in link_results:
+            r.sources = [(pg, txt) for pg, txt in r.sources if not rules.page_ignored(pg)]
+            if r.sources or r.category == "ok":
+                kept.append(r)
+        link_results = kept
     spell_issues = [i for i in spell_issues if not rules.word_ignored(i.word)]
     dropped = (before_links - len(link_results)) + (before_words - len(spell_issues))
     if dropped:

@@ -14,7 +14,10 @@ links back to the exact pages that need correction.
 2. **Validates every link** (internal and external) with a HEAD request,
    falling back to GET. Anything returning a 4xx/5xx or a connection error is
    flagged as **broken**; 401/403/429 responses are reported as **warnings**
-   (usually bot-protection rather than a real break).
+   (usually bot-protection rather than a real break). Transient failures
+   (connection errors, timeouts, 5xx, 429) are re-checked once more after a
+   pause so a host that was briefly down doesn't show up as dozens of broken
+   links.
 3. **Spell-checks** the visible text of each page against a standard English
    dictionary plus a project allow-list (`custom_words.txt`). Results are split
    into **likely typos** (a close correction exists) and **unknown words**
@@ -69,7 +72,13 @@ The report has two ways to dismiss an item (a link or a flagged word):
    word: rehumanize                       # never flag this spelling
    link: https://bsky.app/profile/...     # ignore this exact link
    link-prefix: https://www.youtube.com/  # ignore every link under this prefix
+   link-host: newspapers.com              # ignore every link on this host
+   page-pattern: /video/                  # ignore links found on matching pages
    ```
+
+   `page-pattern` is for pages whose links you don't control — video pages,
+   for example, carry whatever URLs were in the YouTube description. A link is
+   only dropped if *every* page referencing it matches a pattern.
 
    The **Ignored** tab makes this easy: it shows copy-ready `ignore.txt` lines
    for everything you've ignored locally, plus an **Edit ignore.txt on GitHub**
