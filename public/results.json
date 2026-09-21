@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-19 22:18 UTC",
+  "generated_at": "2026-09-21 04:32 UTC",
   "root_domain": "trlibrary.com",
   "summary": {
-    "pages_crawled": 2163,
-    "links_checked": 3904,
-    "broken_links": 104,
-    "warning_links": 112,
-    "spelling_likely_typos": 197,
-    "spelling_unknown_words": 248
+    "pages_crawled": 2155,
+    "links_checked": 3890,
+    "broken_links": 99,
+    "warning_links": 111,
+    "spelling_likely_typos": 185,
+    "spelling_unknown_words": 240
   },
   "broken_links": [
     {
@@ -763,19 +763,6 @@
       ]
     },
     {
-      "url": "https://Gutzon Borglum. Wide World Photo, August 20, 1933. South Dakota State Historical Society.",
-      "status": null,
-      "error": "InvalidURL: Failed to parse: Host 'Gutzon Borglum. Wide World Photo, August 20, 1933. South Dakota State Historical Society.' contains invalid character ' '",
-      "internal": false,
-      "final_url": null,
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/tr-mount-rushmore",
-          "text": ""
-        }
-      ]
-    },
-    {
       "url": "https://abcnews.go.com/US/wireStory/reconstructed-road-opens-grand-views-theodore-roosevelt-national-127851476",
       "status": 404,
       "error": null,
@@ -811,19 +798,6 @@
         {
           "page": "https://www.trlibrary.com/rangers-wanted",
           "text": ""
-        }
-      ]
-    },
-    {
-      "url": "https://archivesspace.uncw.edu/resources/sc-ms-148",
-      "status": 404,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/tr-shot",
-          "text": "donated"
         }
       ]
     },
@@ -1211,10 +1185,6 @@
           "text": ""
         },
         {
-          "page": "https://www.trlibrary.com/checkout/donate?donatePageId=65aeda9432c8680352a54525",
-          "text": ""
-        },
-        {
           "page": "https://www.trlibrary.com/contact",
           "text": ""
         },
@@ -1292,10 +1262,6 @@
         },
         {
           "page": "https://www.trlibrary.com/latest-news",
-          "text": ""
-        },
-        {
-          "page": "https://www.trlibrary.com/make-a-donation",
           "text": ""
         },
         {
@@ -1719,27 +1685,27 @@
           "text": ""
         },
         {
+          "page": "https://www.trlibrary.com/podcast/good-citizen?mc_cid=6577ff901a&mc_eid=fc8617073b&utm_campaign=6577ff901a-EMAIL_CAMPAIGN_2025_02_20_03_32&utm_medium=email&utm_source=Theodore%20Roosevelt%20Presidential%20Library%20Foundation&utm_term=0_fa0893fa76-6577ff901a-586295975&page=4",
+          "text": ""
+        },
+        {
+          "page": "https://www.trlibrary.com/podcast/good-citizen?mc_cid=7414274544&mc_eid=9491d68095&page=6",
+          "text": ""
+        },
+        {
+          "page": "https://www.trlibrary.com/podcast/good-citizen?mc_cid=7414274544&mc_eid=9491d68095&utm_campaign=7414274544-EMAIL_CAMPAIGN_2024_12_27_04_13&utm_medium=email&utm_source=Theodore%20Roosevelt%20Presidential%20Library%20Foundation&utm_term=0_-7414274544-577525295&page=5",
+          "text": ""
+        },
+        {
+          "page": "https://www.trlibrary.com/podcast/good-citizen?mc_cid=9c434a6413&mc_eid=9491d68095&page=3",
+          "text": ""
+        },
+        {
           "page": "https://www.trlibrary.com/podcast/good-citizen?page=1",
           "text": ""
         },
         {
           "page": "https://www.trlibrary.com/podcast/good-citizen?page=2",
-          "text": ""
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen?page=3",
-          "text": ""
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen?page=4",
-          "text": ""
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen?page=5",
-          "text": ""
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen?page=6",
           "text": ""
         },
         {
@@ -2420,10 +2386,6 @@
         },
         {
           "page": "https://www.trlibrary.com/support/matching-gifts",
-          "text": ""
-        },
-        {
-          "page": "https://www.trlibrary.com/support?donatePageId=65aeda9432c8680352a54525",
           "text": ""
         },
         {
@@ -3558,58 +3520,6 @@
       ]
     },
     {
-      "url": "https://generic-entity?number=1",
-      "status": null,
-      "error": "ConnectionError: HTTPSConnectionPool(host='generic-entity', port=443): Max retries exceeded with url: /?number=1 (Caused by NameResolutionError(\"HTTPSConnection(host='generic-entity', port=443): Failed to resolve 'generic-entity' ([Errno -3] Temporary failure in name resolution)\"))",
-      "internal": false,
-      "final_url": null,
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/visit/medora",
-          "text": "Theodore Roosevelt"
-        }
-      ]
-    },
-    {
-      "url": "https://generic-entity?number=2",
-      "status": null,
-      "error": "ConnectionError: HTTPSConnectionPool(host='generic-entity', port=443): Max retries exceeded with url: /?number=2 (Caused by NameResolutionError(\"HTTPSConnection(host='generic-entity', port=443): Failed to resolve 'generic-entity' ([Errno -3] Temporary failure in name resolution)\"))",
-      "internal": false,
-      "final_url": null,
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/visit/medora",
-          "text": "Theodore Roosevelt"
-        }
-      ]
-    },
-    {
-      "url": "https://generic-entity?number=3",
-      "status": null,
-      "error": "ConnectionError: HTTPSConnectionPool(host='generic-entity', port=443): Max retries exceeded with url: /?number=3 (Caused by NameResolutionError(\"HTTPSConnection(host='generic-entity', port=443): Failed to resolve 'generic-entity' ([Errno -3] Temporary failure in name resolution)\"))",
-      "internal": false,
-      "final_url": null,
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/visit/medora",
-          "text": "Medora"
-        }
-      ]
-    },
-    {
-      "url": "https://generic-entity?number=4",
-      "status": null,
-      "error": "ConnectionError: HTTPSConnectionPool(host='generic-entity', port=443): Max retries exceeded with url: /?number=4 (Caused by NameResolutionError(\"HTTPSConnection(host='generic-entity', port=443): Failed to resolve 'generic-entity' ([Errno -3] Temporary failure in name resolution)\"))",
-      "internal": false,
-      "final_url": null,
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/visit/medora",
-          "text": "Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "url": "https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftedxfargo.us7.list-manage.com%2Ftrack%2Fclick%3Fu%3D42126281e0ac794ca800574d6%26id%3Df7ebdfb4ff%26e%3D1462c24ed9&data=05%7C02%7C%7C35bcbf6698764ab622a208dcb6cfbeee%7Cc3f9fd833dac4d1ea4c3573c4fcf9600%7C0%7C0%7C638586250598216425%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=nXcwCuy9%2FDCyUR0Q0K6LYfUovy2c365RPeUeFVqxr8c%3D&reserved=0",
       "status": 404,
       "error": null,
@@ -3660,10 +3570,6 @@
           "text": "Plan your gift"
         },
         {
-          "page": "https://www.trlibrary.com/checkout/donate?donatePageId=65aeda9432c8680352a54525",
-          "text": "Plan your gift"
-        },
-        {
           "page": "https://www.trlibrary.com/donate",
           "text": "Plan your gift"
         },
@@ -3673,10 +3579,6 @@
         },
         {
           "page": "https://www.trlibrary.com/support-trpl",
-          "text": "Plan your gift"
-        },
-        {
-          "page": "https://www.trlibrary.com/support?donatePageId=65aeda9432c8680352a54525",
           "text": "Plan your gift"
         }
       ]
@@ -3691,6 +3593,19 @@
         {
           "page": "https://www.trlibrary.com/press/clips",
           "text": "The Steve Hallstrom Show"
+        }
+      ]
+    },
+    {
+      "url": "https://www.kvrr.com/2024/08/14/gov-burgum-marks-a-significant-milestone-for-theodore-roosevelt-presidential-library/",
+      "status": 404,
+      "error": null,
+      "internal": false,
+      "final_url": null,
+      "sources": [
+        {
+          "page": "https://www.trlibrary.com/press/clips",
+          "text": "Gov. Burgum marks a significant milestone for Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -4472,19 +4387,6 @@
       ]
     },
     {
-      "url": "https://bismarcktribune.com/news/state-regional/theodore-roosevelt-presidential-library-edmund-morris-archives-dickinson-state/article_1e7a74d0-ba27-11ee-9de9-4be9e327d6ac.html",
-      "status": 429,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/press/clips",
-          "text": "Theodore Roosevelt Presidential Library unveils Edmund Morris archives at Dickinson State"
-        }
-      ]
-    },
-    {
       "url": "https://blackpast.org/african-american-history/terrell-robert-h-1857-1925/",
       "status": 403,
       "error": null,
@@ -4556,10 +4458,6 @@
           "text": "Donate"
         },
         {
-          "page": "https://www.trlibrary.com/checkout/donate?donatePageId=65aeda9432c8680352a54525",
-          "text": "One-Time Gift"
-        },
-        {
           "page": "https://www.trlibrary.com/donate",
           "text": "One-Time Gift"
         },
@@ -4582,10 +4480,6 @@
         {
           "page": "https://www.trlibrary.com/support/heritage-society",
           "text": "Learn more"
-        },
-        {
-          "page": "https://www.trlibrary.com/support?donatePageId=65aeda9432c8680352a54525",
-          "text": "One-Time Gift"
         }
       ]
     },
@@ -4601,10 +4495,6 @@
           "text": "Monthly Giving"
         },
         {
-          "page": "https://www.trlibrary.com/checkout/donate?donatePageId=65aeda9432c8680352a54525",
-          "text": "Monthly Giving"
-        },
-        {
           "page": "https://www.trlibrary.com/donate",
           "text": "Monthly Giving"
         },
@@ -4614,10 +4504,6 @@
         },
         {
           "page": "https://www.trlibrary.com/support-trpl",
-          "text": "Monthly Giving"
-        },
-        {
-          "page": "https://www.trlibrary.com/support?donatePageId=65aeda9432c8680352a54525",
           "text": "Monthly Giving"
         }
       ]
@@ -5886,7 +5772,7 @@
       "status": 429,
       "error": null,
       "internal": true,
-      "final_url": "https://shopify.com/authentication/78639988979/oauth/authorize?buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJlOXU4NzYtZ2oubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzkwNDYwNzQ1LCJuYmYiOjE3ODk4NTU5NDV9.q7c5oRZHp9a64vu_ENPPwHG1lE8vOX5qAVycZgr1qEU&client_id=8e1a8040-12e7-4421-96c1-f3d7bb45e5eb&locale=en-US&nonce=61865940-439f-49d1-a386-d3c334c40080&redirect_uri=https%3A%2F%2Fshopify.com%2F78639988979%2Faccount%2Fcallback&region_country=US&response_type=code&scope=openid+email+customer-account-api%3Afull&state=hWNH1jxUm7HgRdx2BjSZt6kD",
+      "final_url": "https://shopify.com/authentication/78639988979/oauth/authorize?buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJlOXU4NzYtZ2oubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzkwNTY5NjA0LCJuYmYiOjE3ODk5NjQ4MDR9.yLJ82-PVM0lFHCWs-VgtmNuHhjy6MHOtC9G7Bm3bzEQ&client_id=8e1a8040-12e7-4421-96c1-f3d7bb45e5eb&locale=en-US&nonce=67d596bf-5086-4cfd-ba83-f708164e50e7&redirect_uri=https%3A%2F%2Fshopify.com%2F78639988979%2Faccount%2Fcallback&region_country=US&response_type=code&scope=openid+email+customer-account-api%3Afull&state=hWNH4hnzT8wmA9aWJDzl1dkv",
       "sources": [
         {
           "page": "https://shop.trlibrary.com",
@@ -6344,6 +6230,19 @@
         {
           "page": "https://www.trlibrary.com/press/clips",
           "text": "Conversation with Secretary Burgum and Brian Moynihan, moderated by Ed O'Keefe"
+        }
+      ]
+    },
+    {
+      "url": "https://www.clevelandbanner.com/news/local/cameron-fisher-treks-to-theodore-roosevelts-new-library/article_e4c1085b-30e7-5a5b-9a85-6f003f5cdf53.html",
+      "status": 429,
+      "error": null,
+      "internal": false,
+      "final_url": null,
+      "sources": [
+        {
+          "page": "https://www.trlibrary.com/press/clips",
+          "text": "Cameron Fisher treks to Theodore Roosevelt\u2019s new library"
         }
       ]
     },
@@ -7088,10 +6987,6 @@
           "text": ""
         },
         {
-          "page": "https://www.trlibrary.com/checkout/donate?donatePageId=65aeda9432c8680352a54525",
-          "text": ""
-        },
-        {
           "page": "https://www.trlibrary.com/contact",
           "text": ""
         },
@@ -7169,10 +7064,6 @@
         },
         {
           "page": "https://www.trlibrary.com/latest-news",
-          "text": ""
-        },
-        {
-          "page": "https://www.trlibrary.com/make-a-donation",
           "text": ""
         },
         {
@@ -7596,27 +7487,27 @@
           "text": ""
         },
         {
+          "page": "https://www.trlibrary.com/podcast/good-citizen?mc_cid=6577ff901a&mc_eid=fc8617073b&utm_campaign=6577ff901a-EMAIL_CAMPAIGN_2025_02_20_03_32&utm_medium=email&utm_source=Theodore%20Roosevelt%20Presidential%20Library%20Foundation&utm_term=0_fa0893fa76-6577ff901a-586295975&page=4",
+          "text": ""
+        },
+        {
+          "page": "https://www.trlibrary.com/podcast/good-citizen?mc_cid=7414274544&mc_eid=9491d68095&page=6",
+          "text": ""
+        },
+        {
+          "page": "https://www.trlibrary.com/podcast/good-citizen?mc_cid=7414274544&mc_eid=9491d68095&utm_campaign=7414274544-EMAIL_CAMPAIGN_2024_12_27_04_13&utm_medium=email&utm_source=Theodore%20Roosevelt%20Presidential%20Library%20Foundation&utm_term=0_-7414274544-577525295&page=5",
+          "text": ""
+        },
+        {
+          "page": "https://www.trlibrary.com/podcast/good-citizen?mc_cid=9c434a6413&mc_eid=9491d68095&page=3",
+          "text": ""
+        },
+        {
           "page": "https://www.trlibrary.com/podcast/good-citizen?page=1",
           "text": ""
         },
         {
           "page": "https://www.trlibrary.com/podcast/good-citizen?page=2",
-          "text": ""
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen?page=3",
-          "text": ""
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen?page=4",
-          "text": ""
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen?page=5",
-          "text": ""
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen?page=6",
           "text": ""
         },
         {
@@ -8297,10 +8188,6 @@
         },
         {
           "page": "https://www.trlibrary.com/support/matching-gifts",
-          "text": ""
-        },
-        {
-          "page": "https://www.trlibrary.com/support?donatePageId=65aeda9432c8680352a54525",
           "text": ""
         },
         {
@@ -10299,19 +10186,6 @@
       ]
     },
     {
-      "url": "https://www.trlibrary.com/museum",
-      "status": 403,
-      "error": null,
-      "internal": true,
-      "final_url": null,
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/impact",
-          "text": "Read more"
-        }
-      ]
-    },
-    {
       "url": "https://www.trlibrary.com/roosevelt",
       "status": 403,
       "error": null,
@@ -10731,29 +10605,6 @@
       ]
     },
     {
-      "word": "magna",
-      "suggestion": "magma",
-      "count": 5,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/tr/early-life",
-          "title": "Theodore Roosevelt's Early Life | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/tr/early-life/harvard",
-          "title": "Roosevelt at Harvard: The Making of a Historian and Political Thinker | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/tr/early-life/ten-facts",
-          "title": "Ten Facts About Theodore Roosevelt\u2019s Early Life | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "word": "misattributed",
       "suggestion": "misattribute",
       "count": 5,
@@ -10872,6 +10723,25 @@
         {
           "url": "https://www.trlibrary.com/visit/groups/field-trips",
           "title": "Field Trips | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "magna",
+      "suggestion": "magma",
+      "count": 4,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/tr/early-life",
+          "title": "Theodore Roosevelt's Early Life | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/tr/early-life/harvard",
+          "title": "Roosevelt at Harvard: The Making of a Historian and Political Thinker | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/tr/early-life/ten-facts",
+          "title": "Ten Facts About Theodore Roosevelt\u2019s Early Life | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -11353,17 +11223,6 @@
       ]
     },
     {
-      "word": "amet",
-      "suggestion": "met",
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "word": "applaused",
       "suggestion": "applause",
       "count": 1,
@@ -11518,17 +11377,6 @@
       ]
     },
     {
-      "word": "commodo",
-      "suggestion": "commode",
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "word": "communi",
       "suggestion": "commune",
       "count": 1,
@@ -11650,17 +11498,6 @@
       ]
     },
     {
-      "word": "dolore",
-      "suggestion": "dolores",
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "word": "drainages",
       "suggestion": "drainage",
       "count": 1,
@@ -11712,28 +11549,6 @@
         {
           "url": "https://www.trlibrary.com/tr/pre-presidency-political-accomplishments",
           "title": "What were Theodore Roosevelt\u2019s Five Significant Accomplishments Prior to Becoming President? | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "elit",
-      "suggestion": "exit",
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "enim",
-      "suggestion": "denim",
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -12024,17 +11839,6 @@
       ]
     },
     {
-      "word": "ipsum",
-      "suggestion": "ipsus",
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "word": "kekt",
       "suggestion": "kept",
       "count": 1,
@@ -12053,28 +11857,6 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/katharine-hayhoe",
           "title": "Katharine Hayhoe | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "labore",
-      "suggestion": "labor",
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "laboris",
-      "suggestion": "labors",
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -12251,17 +12033,6 @@
         {
           "url": "https://www.trlibrary.com/tr/timeline",
           "title": "Timeline of TR\u2019s Life | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "nostrud",
-      "suggestion": "nostrum",
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -12454,7 +12225,7 @@
     },
     {
       "word": "placemaking",
-      "suggestion": "peacemaking",
+      "suggestion": "pacemaking",
       "count": 1,
       "pages": [
         {
@@ -12508,19 +12279,8 @@
       ]
     },
     {
-      "word": "quis",
-      "suggestion": "quit",
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "word": "railcars",
-      "suggestion": "railcard",
+      "suggestion": "railcards",
       "count": 1,
       "pages": [
         {
@@ -12739,17 +12499,6 @@
       ]
     },
     {
-      "word": "tempor",
-      "suggestion": "temper",
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "word": "termer",
       "suggestion": "termed",
       "count": 1,
@@ -12872,7 +12621,7 @@
     },
     {
       "word": "ungrazed",
-      "suggestion": "ungraded",
+      "suggestion": "unglazed",
       "count": 1,
       "pages": [
         {
@@ -12922,17 +12671,6 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/bill-kristol",
           "title": "Bill Kristol | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "veniam",
-      "suggestion": "venial",
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -13485,27 +13223,27 @@
           "title": "Emily Oster | Theodore Roosevelt Presidential Library"
         },
         {
+          "url": "https://www.trlibrary.com/podcast/good-citizen?mc_cid=6577ff901a&mc_eid=fc8617073b&utm_campaign=6577ff901a-EMAIL_CAMPAIGN_2025_02_20_03_32&utm_medium=email&utm_source=Theodore%20Roosevelt%20Presidential%20Library%20Foundation&utm_term=0_fa0893fa76-6577ff901a-586295975&page=4",
+          "title": "Good Citizen Podcast | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen?mc_cid=7414274544&mc_eid=9491d68095&page=6",
+          "title": "Good Citizen Podcast | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen?mc_cid=7414274544&mc_eid=9491d68095&utm_campaign=7414274544-EMAIL_CAMPAIGN_2024_12_27_04_13&utm_medium=email&utm_source=Theodore%20Roosevelt%20Presidential%20Library%20Foundation&utm_term=0_-7414274544-577525295&page=5",
+          "title": "Good Citizen Podcast | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen?mc_cid=9c434a6413&mc_eid=9491d68095&page=3",
+          "title": "Good Citizen Podcast | Theodore Roosevelt Presidential Library"
+        },
+        {
           "url": "https://www.trlibrary.com/podcast/good-citizen?page=1",
           "title": "Good Citizen Podcast | Theodore Roosevelt Presidential Library"
         },
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen?page=2",
-          "title": "Good Citizen Podcast | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen?page=3",
-          "title": "Good Citizen Podcast | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen?page=4",
-          "title": "Good Citizen Podcast | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen?page=5",
-          "title": "Good Citizen Podcast | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen?page=6",
           "title": "Good Citizen Podcast | Theodore Roosevelt Presidential Library"
         }
       ]
@@ -13530,41 +13268,6 @@
         {
           "url": "https://www.trlibrary.com/node/589",
           "title": "Downward Bull Moose: Yoga with T.R. | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "giftcard",
-      "suggestion": null,
-      "count": 7,
-      "pages": [
-        {
-          "url": "http://trlibrary.com/donate",
-          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/checkout/donate?donatePageId=65aeda9432c8680352a54525",
-          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/donate",
-          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/support",
-          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/support-trpl",
-          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/support?donatePageId=65aeda9432c8680352a54525",
-          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/visit/shopping",
-          "title": "Shopping | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -13619,41 +13322,6 @@
         {
           "url": "https://www.trlibrary.com/tr/tr-mount-rushmore",
           "title": "Why is Theodore Roosevelt on Mount Rushmore? | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "reimagined",
-      "suggestion": null,
-      "count": 7,
-      "pages": [
-        {
-          "url": "http://trlibrary.com/donate",
-          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/checkout/donate?donatePageId=65aeda9432c8680352a54525",
-          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/donate",
-          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/support",
-          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/support-trpl",
-          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/support?donatePageId=65aeda9432c8680352a54525",
-          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/visit/exhibits/main",
-          "title": "Permanent Exhibition | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -13797,6 +13465,60 @@
       ]
     },
     {
+      "word": "giftcard",
+      "suggestion": null,
+      "count": 5,
+      "pages": [
+        {
+          "url": "http://trlibrary.com/donate",
+          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/donate",
+          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/support",
+          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/support-trpl",
+          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/visit/shopping",
+          "title": "Shopping | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "reimagined",
+      "suggestion": null,
+      "count": 5,
+      "pages": [
+        {
+          "url": "http://trlibrary.com/donate",
+          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/donate",
+          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/support",
+          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/support-trpl",
+          "title": "Support TRPL | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/visit/exhibits/main",
+          "title": "Permanent Exhibition | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
       "word": "reimagines",
       "suggestion": null,
       "count": 5,
@@ -13810,11 +13532,11 @@
           "title": "Matthew Barzun | Theodore Roosevelt Presidential Library"
         },
         {
-          "url": "https://www.trlibrary.com/podcast/good-citizen?page=3",
+          "url": "https://www.trlibrary.com/podcast/good-citizen?mc_cid=7414274544&mc_eid=9491d68095&utm_campaign=7414274544-EMAIL_CAMPAIGN_2024_12_27_04_13&utm_medium=email&utm_source=Theodore%20Roosevelt%20Presidential%20Library%20Foundation&utm_term=0_-7414274544-577525295&page=5",
           "title": "Good Citizen Podcast | Theodore Roosevelt Presidential Library"
         },
         {
-          "url": "https://www.trlibrary.com/podcast/good-citizen?page=5",
+          "url": "https://www.trlibrary.com/podcast/good-citizen?mc_cid=9c434a6413&mc_eid=9491d68095&page=3",
           "title": "Good Citizen Podcast | Theodore Roosevelt Presidential Library"
         }
       ]
@@ -14743,39 +14465,6 @@
       ]
     },
     {
-      "word": "adipiscing",
-      "suggestion": null,
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "aliqua",
-      "suggestion": null,
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "aliquip",
-      "suggestion": null,
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "word": "americorps",
       "suggestion": null,
       "count": 1,
@@ -14970,28 +14659,6 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/aloe-blacc",
           "title": "Aloe Blacc | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "consectetur",
-      "suggestion": null,
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "consequat",
-      "suggestion": null,
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -15205,17 +14872,6 @@
       ]
     },
     {
-      "word": "eiusmod",
-      "suggestion": null,
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "word": "emoji",
       "suggestion": null,
       "count": 1,
@@ -15421,17 +15077,6 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/adam-met-climate-action-musical-stardom-and-art-building-movement",
           "title": "Adam Met: Climate Action, Musical Stardom, and the Art of Building a Movement | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "incididunt",
-      "suggestion": null,
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -16345,17 +15990,6 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/david-maraniss",
           "title": "David Maraniss | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "ullamco",
-      "suggestion": null,
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/make-a-donation",
-          "title": "Make a Donation | Theodore Roosevelt Presidential Library"
         }
       ]
     },
