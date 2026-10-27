@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import TimeoutError as FuturesTimeout
 from dataclasses import dataclass, field
 from urllib.parse import urlparse
 
@@ -27,6 +28,11 @@ class LinkResult:
     is_internal: bool = False
     error: str | None = None
     final_url: str | None = None  # after redirects, if different
+    # Bot-protection service that answered instead of the real page, if any.
+    shield: str | None = None
+    # Set when the site refuses automated checks, so we can't tell if the
+    # link works. These are kept out of Broken/Warnings.
+    blocked: str | None = None
     # Pages that reference this link, with the anchor text used there.
     sources: list[tuple[str, str]] = field(default_factory=list)
 
@@ -34,6 +40,8 @@ class LinkResult:
     def category(self) -> str:
         if self.ok:
             return "ok"
+        if self.blocked:
+            return "blocked"
         if self.warn:
             return "warning"
         return "broken"
@@ -45,6 +53,7 @@ def _check_one(url: str) -> LinkResult:
 
     def record(resp: requests.Response) -> None:
         result.status = resp.status_code
+        result.shield = shield_of(resp)
         final = str(resp.url)
         if final and final != url:
             result.final_url = final
@@ -61,7 +70,8 @@ def _check_one(url: str) -> LinkResult:
             url, timeout=config.REQUEST_TIMEOUT, allow_redirects=True
         )
         # Many servers mishandle HEAD -> retry with GET.
-        if resp.status_code in (403, 405, 406, 501) or resp.status_code >= 500:
+        if (resp.status_code in (403, 405, 406, 501) or resp.status_code >= 500
+                or (resp.status_code == 404 and not result.is_internal)):
             resp = session.get(
                 url,
                 timeout=config.REQUEST_TIMEOUT,
@@ -75,6 +85,60 @@ def _check_one(url: str) -> LinkResult:
         result.error = f"{type(exc).__name__}: {exc}"
         result.ok = False
     return result
+
+
+# Response headers that mean a bot-protection service answered, not the site.
+SHIELD_HEADERS = {
+    "cf-mitigated": "Cloudflare",
+    "x-datadome": "DataDome",
+    "x-amzn-waf-action": "AWS WAF",
+    "x-px-block": "PerimeterX",
+}
+BLOCK_STATUSES = {401, 403, 429}
+
+
+def shield_of(resp: requests.Response) -> str | None:
+    if resp.status_code < 400:
+        return None
+    for header, name in SHIELD_HEADERS.items():
+        if header in resp.headers:
+            return name
+    if resp.headers.get("server", "").lower().startswith("datadome"):
+        return "DataDome"
+    return None
+
+
+def mark_blocked(results: list[LinkResult]) -> None:
+    """Flag outside links we can't check because the site blocks link checkers.
+
+    We don't try to get around the block. A link counts as blocked when:
+      * a bot-protection service (Cloudflare, DataDome, ...) answered, or
+      * it returned 401/403/429 and the site's own homepage refuses us too.
+    A 404 is never treated as blocked: the site answered, and the page is gone.
+    """
+    cands = [r for r in results
+             if not r.ok and not r.is_internal
+             and (r.shield or r.status in BLOCK_STATUSES)]
+    if not cands:
+        return
+    hosts = sorted({urlparse(r.url).hostname for r in cands if not r.shield})
+    homepage: dict[str, LinkResult] = {}
+    if hosts:
+        print(f"Checking {len(hosts)} site homepage(s) for bot blocking...")
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            for host, res in zip(hosts, pool.map(
+                    lambda h: _check_one(f"https://{h}/"), hosts)):
+                homepage[host] = res
+    for r in cands:
+        if r.shield:
+            r.blocked = f"{r.shield} bot protection"
+            continue
+        home = homepage.get(urlparse(r.url).hostname)
+        if home and (home.shield or home.status in BLOCK_STATUSES):
+            r.blocked = f"Site refuses automated checks (homepage returned {home.status})"
+    n = sum(1 for r in cands if r.blocked)
+    print(f"  {n} link(s) on {len({urlparse(r.url).hostname for r in cands if r.blocked})} "
+          f"site(s) can't be checked automatically")
 
 
 def collect_links(pages: dict[str, Page]) -> dict[str, list[tuple[str, str]]]:
@@ -94,22 +158,38 @@ def validate_links(pages: dict[str, Page]) -> list[LinkResult]:
     print(f"Validating {len(index)} unique links...")
 
     results: list[LinkResult] = []
-    with ThreadPoolExecutor(max_workers=config.LINK_WORKERS) as pool:
-        futures = {pool.submit(_check_one, url): url for url in index}
-        done = 0
-        for fut in as_completed(futures):
+    pool = ThreadPoolExecutor(max_workers=config.LINK_WORKERS)
+    futures = {pool.submit(_check_one, url): url for url in index}
+    done = 0
+    try:
+        for fut in as_completed(futures, timeout=config.LINK_PHASE_MINUTES * 60):
             res = fut.result()
             res.sources = sorted(set(index.get(res.url, [])))
             results.append(res)
             done += 1
             if done % 100 == 0 or done == len(index):
                 print(f"  checked {done}/{len(index)} links")
+    except FuturesTimeout:
+        # Something is stuck. Report what's left instead of hanging the run.
+        for fut, url in futures.items():
+            if not fut.done():
+                results.append(LinkResult(
+                    url=url, is_internal=is_internal(url), warn=True,
+                    error=f"Not checked: link phase hit its {config.LINK_PHASE_MINUTES}-minute limit",
+                    sources=sorted(set(index.get(url, []))),
+                ))
+        print(f"  time limit reached; {len(index) - done} link(s) left unchecked")
+    finally:
+        pool.shutdown(wait=False, cancel_futures=True)
 
     results = _recheck_transient(results)
+    mark_blocked(results)
 
     broken = sum(1 for r in results if r.category == "broken")
     warn = sum(1 for r in results if r.category == "warning")
-    print(f"Link check complete: {broken} broken, {warn} warnings.")
+    blocked = sum(1 for r in results if r.category == "blocked")
+    print(f"Link check complete: {broken} broken, {warn} warnings, "
+          f"{blocked} on sites that block checkers.")
     return results
 
 

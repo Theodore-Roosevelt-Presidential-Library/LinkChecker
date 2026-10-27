@@ -46,6 +46,24 @@ SITEMAP_URLS = [
     if u.strip()
 ]
 
+# Hosts whose pages are CRAWLED (followed for more links). Links to every other
+# *.trlibrary.com host (the ACME ticket store, the labs.trlibrary.com tools) are
+# still CHECKED, just not crawled: those sites are large or endless (calendar
+# dates, one page per day of TR's life) and pushed runs past GitHub's 6-hour limit.
+CRAWL_HOSTS = {
+    h.strip().lower()
+    for h in os.environ.get("CRAWL_HOSTS", "www.trlibrary.com,trlibrary.com").split(",")
+    if h.strip()
+}
+
+# Don't crawl URLs with query strings (?date=, ?page=, filters): they multiply
+# endlessly. They are still checked as links. Set to 1 to crawl them anyway.
+# Hard cap on the link-checking phase. Anything still unchecked when time runs
+# out is reported as "not checked" instead of hanging the whole run.
+LINK_PHASE_MINUTES = _int("LINK_PHASE_MINUTES", 60)
+
+CRAWL_QUERY_STRINGS = os.environ.get("CRAWL_QUERY_STRINGS", "0").strip() in {"1", "true", "True"}
+
 # Safety cap on how many internal pages we crawl. 0 means "no cap".
 # The live site is ~700 pages, so 5000 gives generous headroom.
 MAX_PAGES = _int("MAX_PAGES", 5000)

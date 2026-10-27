@@ -94,6 +94,10 @@ def is_crawlable(url: str) -> bool:
     """Can we crawl this URL as an HTML page?"""
     if not is_http(url) or not is_internal(url):
         return False
+    if host_of(url) not in config.CRAWL_HOSTS:
+        return False          # checked as a link, but not crawled (see config.CRAWL_HOSTS)
+    if urlparse(url).query and not config.CRAWL_QUERY_STRINGS:
+        return False
     path = urlparse(url).path.lower()
     if any(path.startswith(p) for p in ROBOTS_DISALLOW):
         return False

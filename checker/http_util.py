@@ -29,7 +29,12 @@ def get_session() -> requests.Session:
             total=config.MAX_RETRIES,
             backoff_factor=0.5,
             status_forcelist=(429, 500, 502, 503, 504),
-            respect_retry_after_header=True,
+            # Never obey a server's Retry-After: some sites answer 429 with a
+            # very long Retry-After, which froze workers for hours and pushed
+            # the run past GitHub's 6-hour limit. 429s get a slow re-check
+            # at the end instead (see links._recheck_transient).
+            respect_retry_after_header=False,
+            backoff_max=10,
             allowed_methods=frozenset({"GET", "HEAD"}),
             raise_on_status=False,
         )

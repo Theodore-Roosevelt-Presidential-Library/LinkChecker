@@ -18,6 +18,7 @@ from __future__ import annotations
 import json
 import os
 from datetime import datetime, timezone
+from urllib.parse import urlparse
 
 from . import config
 from .links import LinkResult
@@ -32,6 +33,7 @@ def build_payload(
 ) -> dict:
     broken = [r for r in link_results if r.category == "broken"]
     warnings = [r for r in link_results if r.category == "warning"]
+    blocked = [r for r in link_results if r.category == "blocked"]
     typos = [i for i in spell_issues if i.likely_typo]
     unknown = [i for i in spell_issues if not i.likely_typo]
 
@@ -43,11 +45,14 @@ def build_payload(
             "links_checked": len(link_results),
             "broken_links": len(broken),
             "warning_links": len(warnings),
+            "blocked_links": len(blocked),
+            "blocked_sites": len({urlparse(r.url).hostname for r in blocked}),
             "spelling_likely_typos": len(typos),
             "spelling_unknown_words": len(unknown),
         },
         "broken_links": [_link_dict(r) for r in sorted(broken, key=lambda x: (not x.is_internal, x.url))],
         "warning_links": [_link_dict(r) for r in sorted(warnings, key=lambda x: x.url)],
+        "blocked_links": [_link_dict(r) for r in sorted(blocked, key=lambda x: x.url)],
         "spelling_typos": [_spell_dict(i) for i in typos],
         "spelling_unknown": [_spell_dict(i) for i in unknown],
     }
@@ -60,6 +65,7 @@ def _link_dict(r: LinkResult) -> dict:
         "error": r.error,
         "internal": r.is_internal,
         "final_url": r.final_url,
+        "blocked": r.blocked,
         "sources": [{"page": p, "text": t} for p, t in r.sources],
     }
 
@@ -244,6 +250,7 @@ function linkItem(r){
   const tagcls = r.error ? 'red' : (r.status>=400 ? 'red' : 'amber');
   const scope = r.internal ? 'internal' : 'external';
   const search = (r.url+' '+(r.error||r.status||'')+' '+(r.sources||[]).map(s=>s.page).join(' ')).toLowerCase();
+  if(r.blocked){ label = r.status!=null ? r.status : 'Blocked'; errBlock = `<div class="meta">${esc(r.blocked)}. Open it in a browser to confirm it still works.</div>`; }
   const redir = r.final_url ? `<div class="meta">→ redirects to ${esc(r.final_url)}</div>` : '';
   return `<div class="item" data-s="${esc(search)}">
     <div class="item-main">
@@ -279,6 +286,8 @@ const CATS = {
              empty:'<div class="empty good">No likely typos found.</div>'},
   warnings: {data:DATA.warning_links,   kind:'link', render:linkItem,
              empty:'<div class="empty">No link warnings.</div>'},
+  blocked:  {data:DATA.blocked_links||[], kind:'link', render:linkItem,
+             empty:'<div class="empty">No sites blocked the checker.</div>'},
   unknown:  {data:DATA.spelling_unknown,kind:'word', render:spellItem,
              empty:'<div class="empty">No unknown words.</div>'},
 };
@@ -431,6 +440,7 @@ def render_html(payload: dict) -> str:
             tab("typos", "Likely typos", s["spelling_likely_typos"], "red"),
             tab("warnings", "Warnings", s["warning_links"], "amber"),
             tab("unknown", "Unknown words", s["spelling_unknown_words"], "amber"),
+            tab("blocked", "Blocked sites", s.get("blocked_links", 0), ""),
             tab("ignored", "Ignored", 0, ""),
         ]
     )
@@ -440,11 +450,12 @@ def render_html(payload: dict) -> str:
         "typos": "Lower-case words not in the dictionary that have a close, common correction. Highest-confidence items to fix. Use Ignore to dismiss a word.",
         "warnings": "Reachable but returned 401/403/429 — usually bot-protection or rate limiting (e.g. social media, donation forms) rather than a true break.",
         "unknown": "Not in the dictionary with no obvious correction — usually names, places, or jargon. Ignore or add genuine terms to custom_words.txt.",
+        "blocked": "Outside sites that refuse automated link checkers (news sites, the Library of Congress and others use bot protection). The checker can't tell whether these links work, so they are kept out of Broken and Warnings. Spot-check them in a browser now and then.",
         "ignored": "Items you've hidden in this browser. Restore any of them, or copy the lines into ignore.txt to suppress them permanently for everyone.",
     }
     panels = "".join(
         f'<div class="panel" id="panel-{k}"></div>'
-        for k in ["broken", "typos", "warnings", "unknown", "ignored"]
+        for k in ["broken", "typos", "warnings", "unknown", "blocked", "ignored"]
     )
 
     repo_edit_url = (

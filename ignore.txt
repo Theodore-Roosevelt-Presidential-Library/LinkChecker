@@ -28,3 +28,7 @@
 # Video pages carry links pasted in from YouTube descriptions (old bit.ly
 # shortlinks, retired NPS pages, etc.). Those aren't ours to fix in Drupal.
 page-pattern: /video/
+
+# Correct words the spell checker doesn't know.
+word: coulees
+word: faire

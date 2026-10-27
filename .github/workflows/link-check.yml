@@ -31,6 +31,8 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
+    # Normal runs take well under an hour. Fail fast instead of burning 6 hours.
+    timeout-minutes: 90
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -49,8 +51,10 @@ jobs:
 
       - name: Run link & spelling check
         env:
-          # Tune behaviour here without editing code. 0 = no page cap.
-          MAX_PAGES: "0"
+          # Tune behaviour here without editing code. Safety cap on pages crawled.
+          MAX_PAGES: "5000"
+          # Stop checking links after this long and report the rest as "not checked".
+          LINK_PHASE_MINUTES: "45"
           CRAWL_WORKERS: "12"
           LINK_WORKERS: "24"
           ENABLE_SPELLCHECK: "1"
