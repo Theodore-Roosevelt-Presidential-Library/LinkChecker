@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-02 04:24 UTC",
+  "generated_at": "2026-11-09 04:24 UTC",
   "root_domain": "trlibrary.com",
   "summary": {
-    "pages_crawled": 1255,
-    "links_checked": 4082,
-    "broken_links": 42,
-    "warning_links": 3,
-    "blocked_links": 196,
-    "blocked_sites": 56,
-    "spelling_likely_typos": 201,
-    "spelling_unknown_words": 260
+    "pages_crawled": 1260,
+    "links_checked": 4128,
+    "broken_links": 41,
+    "warning_links": 6,
+    "blocked_links": 178,
+    "blocked_sites": 51,
+    "spelling_likely_typos": 212,
+    "spelling_unknown_words": 267
   },
   "broken_links": [
     {
@@ -41,20 +41,6 @@
       ]
     },
     {
-      "url": "https://apps.apple.com/us/app/rangers-wanted/id6446949837",
-      "status": 404,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": null,
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/rangers-wanted",
-          "text": ""
-        }
-      ]
-    },
-    {
       "url": "https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftedxfargo.us7.list-manage.com%2Ftrack%2Fclick%3Fu%3D42126281e0ac794ca800574d6%26id%3Df7ebdfb4ff%26e%3D1462c24ed9&data=05%7C02%7C%7C35bcbf6698764ab622a208dcb6cfbeee%7Cc3f9fd833dac4d1ea4c3573c4fcf9600%7C0%7C0%7C638586250598216425%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=nXcwCuy9%2FDCyUR0Q0K6LYfUovy2c365RPeUeFVqxr8c%3D&reserved=0",
       "status": 404,
       "error": null,
@@ -79,20 +65,6 @@
         {
           "page": "https://www.trlibrary.com/press/clips",
           "text": "Theodore Roosevelt Presidential Library Nears Completion"
-        }
-      ]
-    },
-    {
-      "url": "https://play.google.com/store/apps/details?id=com.trpl.rangerswanted&pcampaignid=web_share",
-      "status": 404,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": null,
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/rangers-wanted",
-          "text": ""
         }
       ]
     },
@@ -149,20 +121,6 @@
         {
           "page": "https://www.trlibrary.com/visit/teddy-trail",
           "text": "Fargo Area Teddy Roosevelt Trail"
-        }
-      ]
-    },
-    {
-      "url": "https://www.kvrr.com/2026/06/30/bill-makes-presidential-library-official-home-for-theodore-roosevelt-artifacts-authorizes-funding/",
-      "status": 404,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": null,
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/press/clips",
-          "text": "Bill makes presidential library official home for Theodore Roosevelt artifacts; authorizes funding"
         }
       ]
     },
@@ -377,24 +335,6 @@
       ]
     },
     {
-      "url": "https://www.theodorerooseveltcenter.org/digital-library/resource-type/diary",
-      "status": 404,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": null,
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/new-york-politics/double-tragedy",
-          "text": "diary entry"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/bill-sewall",
-          "text": "Roosevelt's Diaries"
-        }
-      ]
-    },
-    {
       "url": "https://www.theodorerooseveltcenter.org/encyclopedia/americas/panama",
       "status": 404,
       "error": null,
@@ -497,6 +437,20 @@
       ]
     },
     {
+      "url": "https://www.theodorerooseveltcenter.org/encyclopedia/nature-and-conservation",
+      "status": 404,
+      "error": null,
+      "internal": false,
+      "final_url": null,
+      "blocked": null,
+      "sources": [
+        {
+          "page": "https://www.trlibrary.com/tr/homes-and-places/pine-knot",
+          "text": "Roosevelt's Love of Nature"
+        }
+      ]
+    },
+    {
       "url": "https://www.theodorerooseveltcenter.org/encyclopedia/people/harvey-wiley",
       "status": 404,
       "error": null,
@@ -507,6 +461,20 @@
         {
           "page": "https://www.trlibrary.com/tr/presidency/food-and-drug",
           "text": "Dr. Harvey Wiley Encyclopedia Entry"
+        }
+      ]
+    },
+    {
+      "url": "https://www.theodorerooseveltcenter.org/encyclopedia/personal-life/elkhorn-ranch",
+      "status": 404,
+      "error": null,
+      "internal": false,
+      "final_url": null,
+      "blocked": null,
+      "sources": [
+        {
+          "page": "https://www.trlibrary.com/tr/post-presidency/final-visit-medora",
+          "text": "Elkhorn Ranch"
         }
       ]
     },
@@ -539,6 +507,20 @@
       ]
     },
     {
+      "url": "https://www.theodorerooseveltcenter.org/encyclopedia/presidency",
+      "status": 404,
+      "error": null,
+      "internal": false,
+      "final_url": null,
+      "blocked": null,
+      "sources": [
+        {
+          "page": "https://www.trlibrary.com/tr/family/fdr-connection",
+          "text": "Two Presidents, One Dynasty"
+        }
+      ]
+    },
+    {
       "url": "https://www.theodorerooseveltcenter.org/media/Images/Blog/2019/Roosevelt_submarine-1024x854-2.jpg",
       "status": 404,
       "error": null,
@@ -553,7 +535,7 @@
       ]
     },
     {
-      "url": "https://www.theodorerooseveltcenter.org/subject/progressive-party",
+      "url": "https://www.theodorerooseveltcenter.org/timelines/roosevelt-badlands",
       "status": 404,
       "error": null,
       "internal": false,
@@ -561,8 +543,8 @@
       "blocked": null,
       "sources": [
         {
-          "page": "https://www.trlibrary.com/tr/people/william-howard-taft",
-          "text": "The Progressive Party and 1912 Election"
+          "page": "https://www.trlibrary.com/tr/people/marquis-de-mores",
+          "text": "Roosevelt in the Badlands Timeline"
         }
       ]
     },
@@ -611,6 +593,34 @@
   ],
   "warning_links": [
     {
+      "url": "https://bismarcktribune.com/news/state-regional/construction-begins-on-theodore-roosevelt-presidential-library-at-medora/article_9293d65a-1c15-11ee-abdf-fbeb3dd1f4f6.html",
+      "status": 429,
+      "error": null,
+      "internal": false,
+      "final_url": null,
+      "blocked": null,
+      "sources": [
+        {
+          "page": "https://www.trlibrary.com/press/clips",
+          "text": "Construction begins on Theodore Roosevelt Presidential Library at Medora"
+        }
+      ]
+    },
+    {
+      "url": "https://bismarcktribune.com/news/state-regional/theodore-roosevelt-presidential-library-construction-milestone/article_5d30c2bc-5a7f-11ef-a51c-5713e4eefd5d.html",
+      "status": 429,
+      "error": null,
+      "internal": false,
+      "final_url": null,
+      "blocked": null,
+      "sources": [
+        {
+          "page": "https://www.trlibrary.com/press/clips",
+          "text": "Theodore Roosevelt Presidential Library crosses construction milestone"
+        }
+      ]
+    },
+    {
       "url": "https://bismarcktribune.com/news/state-regional/theodore-roosevelt-presidential-library-edmund-morris-archives-dickinson-state/article_1e7a74d0-ba27-11ee-9de9-4be9e327d6ac.html",
       "status": 429,
       "error": null,
@@ -639,7 +649,7 @@
       ]
     },
     {
-      "url": "https://www.kvrr.com/news/local/happy-hooligans-to-fly-mq-9-reaper-during-theodore-roosevelt-presidential-library-opening-ceremony/article_2d2969e4-3892-4266-bcee-4395d5a18e13.html",
+      "url": "https://www.kvrr.com/2026/06/21/america250-president-trump-to-visit-medora-for-theodore-roosevelt-presidential-library-dedication/",
       "status": 429,
       "error": null,
       "internal": false,
@@ -648,7 +658,21 @@
       "sources": [
         {
           "page": "https://www.trlibrary.com/press/clips",
-          "text": "Happy Hooligans to fly MQ-9 Reaper during Theodore Roosevelt Presidential Library opening ceremony"
+          "text": "America250: President Trump to visit Medora for Theodore Roosevelt Presidential Library dedication"
+        }
+      ]
+    },
+    {
+      "url": "https://www.kvrr.com/2026/06/30/bill-makes-presidential-library-official-home-for-theodore-roosevelt-artifacts-authorizes-funding/",
+      "status": 429,
+      "error": null,
+      "internal": false,
+      "final_url": null,
+      "blocked": null,
+      "sources": [
+        {
+          "page": "https://www.trlibrary.com/press/clips",
+          "text": "Bill makes presidential library official home for Theodore Roosevelt artifacts; authorizes funding"
         }
       ]
     }
@@ -733,20 +757,6 @@
       ]
     },
     {
-      "url": "https://apnews.com/article/trump-theodore-roosevelt-presidential-library-north-dakota-784bce4c9389b086a8a70a04d06b9939",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/press/clips",
-          "text": "Trump visits newly built Theodore Roosevelt Presidential Library in North Dakota's Badlands"
-        }
-      ]
-    },
-    {
       "url": "https://apnews.com/press-release/newswire/theodore-roosevelt-presidential-library-unveils-edmund-morris-archives-at-dickinson-state-university-f52092119bb008335e0ea3dfe4136999",
       "status": 403,
       "error": null,
@@ -789,20 +799,6 @@
       ]
     },
     {
-      "url": "https://blackpast.org/african-american-history/terrell-robert-h-1857-1925/",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/pre-presidency-political-accomplishments",
-          "text": "Robert H. Terrell"
-        }
-      ]
-    },
-    {
       "url": "https://blogs.loc.gov/headlinesandheroes/2020/06/theodore-roosevelt-a-president-of-firsts/",
       "status": 429,
       "error": null,
@@ -827,24 +823,6 @@
         {
           "page": "https://www.trlibrary.com/visit/exhibits/diary",
           "text": "\u201cThe Light Has Gone Out of My Life\u201d: Theodore Roosevelt\u2019s 1884 Pocket Diary in Full Color"
-        }
-      ]
-    },
-    {
-      "url": "https://catalog.hathitrust.org/Record/103543891",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/in-her-words",
-          "text": "Cleared for Strange Ports(1927), HathiTrust full view"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/later-years",
-          "text": "Cleared for Strange Ports(Scribner's, 1927), full view at HathiTrust"
         }
       ]
     },
@@ -885,3220 +863,6 @@
         {
           "page": "https://www.trlibrary.com/tr/timeline",
           "text": "The San Francisco call, April 26, 1908."
-        }
-      ]
-    },
-    {
-      "url": "https://form-renderer-app.donorperfect.io/give/theodore-roosevelt-presidential-library-foundation/donate-page",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "http://trlibrary.com/donate",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "http://www.trlibrary.com",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "http://www.trlibrary.com/privacy-policy&nbsp",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/2024-annual-report",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/careers",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/charitable-disclosure",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/foundation",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/mission",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/presidential-library-system",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/architectural-design-concepts-unveiled",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/confluence-named-landscape-architect-record",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/conocophillips-contributes-2-million-theodore-roosevelt-presidential",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/ed-schafer-theodore-roosevelt-presidential-library-would-influence-world",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/equestrian-statue-heading-trpl",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/harold-hamm-donates-50-million-trpl",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/roosevelt-family-acquires-903-acres-trpl",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/sarah-and-ross-perot-jr-foundation-gifts-5-million-theodore-roosevelt",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/snohetta-selected-design-architect-trpl",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/theodore-roosevelt-presidential-library-launches-good-citizen-podcast",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/theodore-roosevelt-presidential-library-opening-celebrations-july-4-2026",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/theodore-roosevelt-presidential-library-unveils-edmund-morris-archives",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/theodore-roosevelt-presidential-library-welcomes-doris-kearns-goodwin",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/theodore-roosevelt-presidential-library-welcomes-new-trustees-ahead-2026",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/theodore-roosevelts-groundbreaking-firsts-and-feats-celebration",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/trpl-elects-new-board-members",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/trplf-announces-100-million-commitments-unlocks-50-million-state",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/trplf-elects-spencer-zwick-board",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/press-releases/trplf-elects-victoria-chambers-eric-jolly-and-vaughn-williams-board",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/quotes",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/press/updates",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/reports/2023-impact-report",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/reports/2024-annual-report",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/reports/2024-progress",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/reports/2025-annual-report",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/submission-policy",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/beth-laski",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/beth-myers",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/david-saggau",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/dick-boyce",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/doris-kearns-goodwin",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/douglas-brinkley",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/dr-chevy-humphrey",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/edward-okeefe",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/eileen-scheel",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/gretchen-stenehjem",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/hilary-hamm",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/john-palfrey",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/kermit-roosevelt",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/matthew-swift",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/theodore-roosevelt-v",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/vaughn-williams",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/about/trustees/victoria-chambers",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/alexander-hamilton-speaks",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/beam-signing-ceremony",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/benefactor-societies",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/benefactor-society-qas",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/birthdaycard",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/board-members",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/book-talk-blase",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/brand",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/bullet-speech",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/daily-activity/david-hume-kennerly-exhibition",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/daily-activity/david-hume-kennerly-room-60-years-front-lines-history",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/daily-activity/family-crafting-time",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/daily-activity/free-final-hour",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/daily-activity/guided-highlights-tour",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/daily-activity/room-sixty-years-front-lines-history",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/medora",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/partners",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/911-whca-remembers-historic-tragedies-and-near-tragedies",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/america-beautiful-film-screening",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/american-conservation-coalition-2026-public-programs",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/artist-demonstration-shane-balkowitsch",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/artist-panel-kennerly-balkowitsch-and-ziemendorf",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/artist-talk-chad-ziemendorf",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/artist-talk-room-david-hume-kennerly",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/bill-bleyer-presents-sagamore-hill-theodore-roosevelts-summer-white-house",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/book-signing-and-meet-greet",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/book-signing-and-meet-greet-kennerly-balkowitsch-and-ziemendorf",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/butchery-workshop",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/downward-bull-moose-yoga-tr",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/elkhorn-evenings",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/gallery-david-hume-kennerly",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/governor-kelly-armstrong-and-karl-rove-conversation",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/hamilton-speaks",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/maah-daah-hey-bike-race",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/maah-daah-hey-trail-run",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/precedent-power-teaching-executive-authority-through-george-washington-and",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/virtual-learning-session-reconstruction-and-second-founding",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/visit-santa-claus",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/special-event/white-house-communications-agency-alumni-wives-tales-and-war-stories",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/specialty-tour",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/specialty-tour/architecture-and-sustainability-tour",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/specialty-tour/badlands-landscape-tour",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/specialty-tour/member-behind-arena-tour",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/calendar/specialty-tour/tr-deep-dive-tour",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/careers",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/charitable-disclosure",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/citizenship",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/conservation",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/contact",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/digital-guide",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/donate",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/event/24",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/events",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/events/teddycon",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/field-trips",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/giving-hearts-day",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/grand-opening",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/grand-opening/photos/july1",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/grand-opening/photos/july2",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/grand-opening/photos/july3",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/grand-opening/photos/july4",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/grand-opening/talks",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/gwti-250",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/hamilton-speaks-the-study",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/heritage-society",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/holiday-2026",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/holidays",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/impact",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/join-us",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/latest-news",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/leadership",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/matching-gifts",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/medorameeting",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/membership",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/membership/neighbor",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/message-from-the-ceo",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/midwinter-table",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/mission",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/newsletter",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/205",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/213",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/22",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/23",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/236",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/237",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/238",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/239",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/24",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/240",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/241",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/242",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/243",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/244",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/245",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/246",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/247",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/248",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/249",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/25",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/252",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/26",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/260",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/261",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/262",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/27",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/28",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/29",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/30",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/31",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/32",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/33",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/34",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/350",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/node/589",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/adam-met-climate-action-musical-stardom-and-art-building-movement",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/admiral-stavridis-nato-and-world-2084-future-warning",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/aloe-blacc",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/amy-bowers-cordalis",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/anna-jane-joyner",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/anne-therese-gennari",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/baratunde-thurston",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/ben-jealous",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/benji-backer",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/beth-silvers-amp-sarah-stewart-holland",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/bill-kristol",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/bob-crawford-americas-greatest-ex-president-john-quincy-adams",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/bradford-fitch",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/call-adventure-charlie-melcher-ed-okeefe-and-brand-new-theodore-roosevelt",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/candice-millard",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/carly-fiorina",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/carrie-besnette-hauser-phd",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/christiana-figueres",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/dan-harris",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/dana-milbank-retreat-restore-rehumanize",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/daniel-levitin",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/david-maraniss",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/doris-kearns-goodwin-presidential-stories-trpl-and-enduring-lessons-theodore",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/douglas-brinkley",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/dr-carla-hayden",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/dr-vivek-murthy-loneliness-staying-human-and-what-true-success-looks",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/dwayne-fields-survival-purpose-life-shaped-nature",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/edward-okeefe",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/emily-oster",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/eric-liu",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/george-packer-patriotism-democratic-values-and-turning-fiction",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/jane-carpenter-rock-art-diplomacy-division-and-stewarding-american-story",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/jeffrey-rosen",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/jehmu-greene",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/judith-shulevitz",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/karl-rove-historic-redemption-hard-work-politics-and-essential-nature",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/katharine-hayhoe",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/katherine-gehl",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/kermit-roosevelt-iii",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/laurie-leshin",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/leah-hunt-hendrix",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-1-doris-kearns-goodwin-finding-hope-history",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-2-johnny-morris-and-gov-kelly-armstrong-conservation-commerce-and",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/liz-cheney",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/lucas-st-clair-honey-humility-and-making-national-monument",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/mark-bittman",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/matthew-barzun",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/matthew-continetti",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/meg-whitman",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/michael-d-smith",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/michael-luo",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/mike-rowe",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/richard-haass",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/ruth-whippman",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/sarabeth-berman-what-dies-when-local-news-does-crisis-nobodys-covering",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/secretary-deb-haaland",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/senator-chris-murphy",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/senator-mitt-romney-formative-moments-presidential-leadership-and-question",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/sharon-mcmahon",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/spencer-glendon",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/stewart-mclaurin",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/susan-berfield",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/susannah-cahalan",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/ted-leonsis",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/temple-grandin",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/tony-porter",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/podcast/good-citizen/welcome-to-good-citizen-with-ted-roosevelt-v",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/press",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/press/clips",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/press/press-releases",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/privacy",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/privacy-policy",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/privacy/cookies",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/private-events",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/private-events/catering",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/private-events/inquiry",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/private-events/spaces",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/programs",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/project",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/project/design",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/project/how-the-library-works",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/project/leed-certificate",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/project/living-building-challenge",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/project/native-plant-project",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/project/native-plants",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/project/sites-certificate",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/project/sustainability",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/project/updates/2026-May-Updates",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/back-to-school",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/badlands",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/badlands-before-tr",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/badlands-expert",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/badlands-family",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/badlands-geology",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/badlands-wildlife",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/badlands-wildlife-family",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/birder",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/birthday",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/books-and-writings",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/building-the-library",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/campaigns-and-elections-quiz",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/christmas",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/closing-frontier",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/coal-strike",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/conservation",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/conservation-expert",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/conservation-family",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/conservation-quiz",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/early-life",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/early-life-family",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/early-life-quiz",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/earth-day",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/election-1912",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/election-night-1904",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/family",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/fathers-day",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/february-14",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/fourth-of-july",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/gilded-age",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/great-die-up",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/great-white-fleet",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/guns-and-gear",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/health",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/homes-and-places",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/immigration-era",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/inauguration-1905",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/last-days",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/legacy",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/library-architecture",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/little-missouri",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/living-building-challenge",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/medora",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/medora-today",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/mothers-day",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/muckrakers",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/myths",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/myths-expert",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/national-park",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/native-plant-project",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/naturalist",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/nd-statehood",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/new-year",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/new-york-politics",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/nobel-peace-prize",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/open-range",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/other-roosevelts",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/outdoors-quiz",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/panama-canal",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/people",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/pets",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/political-impact-quiz",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/post-presidency",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/presidency",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/presidency-expert",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/presidents-day",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/progressive-era",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/quotes-quiz",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/rise-to-power",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/river-of-doubt",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/roosevelt-and-press",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/roosevelt-photography",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/roosevelts-at-war",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/rough-riders",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/rough-riders-expert",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/rough-riders-family",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/sagamore-table",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/spanish-american-war",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/strenuous-life",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/teddy-bear",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/thanksgiving",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/the-boardwalk",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/the-collection",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/tr-and-animals-quiz",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/trs-adventures-quiz",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/trust-busting",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/veterans-day",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/weddings",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/what-he-read",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/who-was-tr",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/whole-life",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/women-of-the-era",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/quiz/world-power",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/rangers-wanted",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/research",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/research/archives",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/research/books-by-roosevelt",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/research/family-tree",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/research/network",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/roosevelt",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/rsvp/legislative-day",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/rsvp/midwinter",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/signature-experiences",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/addison-olson",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/alice-wynd",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/amy-mccann",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/barbara-shockey",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/blakely-page",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/bonnie-salveson",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/brett-bennick",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/candace-stock",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/chris-blackwell",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/cj-von-buchwald-wright",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/clancy-griggs",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/clark-crowley-bunyard",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/courtland-miller",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/dan-muus",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/danielle-sahlin",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/debbie-queen",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/jacob-simpson",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/jayna-wiens",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/jenn-carroll",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/jeremy-beam",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/jessyca-macklin",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/jolene-procive",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/julianna-gonzaba",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/katie-fulton",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/katie-reilly",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/keah-munsen",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/ken-vein",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/kristie-skunberg",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/luke-radzak",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/marcie-woehl",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/matt-briney",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/matt-ronk",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/nicole-turchin",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/peter-troutner",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/rachel-moats",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/robbie-lauf",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/sarah-mellor",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/sigrid-letcher",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/susan-sarna",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/tony-erickson",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/will-hollingsworth",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/staff-members/zoey-gill",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/student-opportunities",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/support",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/support-trpl",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/support/benefactor-societies",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/support/donor-advised-fund",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/support/give-stocks-and-securities",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/support/give-through-your-ira",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/support/heritage-society",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/support/matching-gifts",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/teach-tr",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/the-foundation",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tickets",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tickets/terms",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tickets/terms/signature-experiences",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/10-myths-teddy-bear",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/5-big-adventures",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/africa-1909",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/arbor-day",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/arbor-day-timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands-timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/bad-lands-cow-boy",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/bad-lands-cow-boy/ads",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/bad-lands-cow-boy/day-by-day",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/bad-lands-cow-boy/people",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/bad-lands-cow-boy/roosevelt",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/boat-thieves",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/day-in-the-life",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/elkhorn-ranch",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/elkhorn-ranch.html",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/first-trip",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/frontier-life",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/landscape",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/maltese-cross",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/maltese-cross.html",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/medora",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/overview",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/ten-facts",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/western-writer",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/where-to-see",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/badlands/winter-of-1887",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/bibliography",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/biography",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/birthday",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/birthday-timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/books-and-writings",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/books-and-writings/autobiography",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/books-and-writings/complete-list",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/books-and-writings/reader",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/childhood/",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/children/",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/christmas",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/christmas-timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/complex-legacy",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/complex-legacy/",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/complex-legacy/equestrian-statue",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/complex-legacy/eugenics",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/complex-legacy/eugenics/",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/complex-legacy/imperialism",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/complex-legacy/native-americans",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/complex-legacy/native-nations-timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/complex-legacy/race",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/complex-legacy/race/",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/conservation",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/conservation/",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/conservation/antiquities-act.html",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/conservation/by-the-numbers",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/conservation/by-the-numbers.html",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/conservation/overview",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/conservation/quotes",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/conservation/quotes.html",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/early-life",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/early-life/childhood-illness",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/early-life/civil-war",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/early-life/day-in-the-life",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/early-life/family-roots",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/early-life/family-travels",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/early-life/father",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/early-life/harvard",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/early-life/index",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/early-life/mother",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/early-life/overview",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/early-life/siblings",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/early-life/ten-facts",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/early-life/young-naturalist",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/elkhorn",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/elkhorn-timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/fake-quotes",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/family",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/family/",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/family/children",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/family/elliott-roosevelt",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/family/family-tree",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/family/fdr-connection",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/family/roosevelt-women",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/for-educators",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/for-educators/elementary",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/for-educators/high-school",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/for-educators/middle-school",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/for-educators/roosevelt-women",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/fourth-of-july",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/fourth-of-july-timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/fun-facts",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/holidays",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/homes-and-places",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/homes-and-places/birthplace",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/homes-and-places/pine-knot",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/homes-and-places/sagamore-hill",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/homes-and-places/tr-national-park",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/homes-and-places/white-house",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/key-facts",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/kids-timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/labor-day",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/labor-day-timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/legacy",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/legacy/film-and-tv",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/legacy/mount-rushmore",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/legacy/rankings",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/legacy/teddy-bear",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/legacy/the-library",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/legacy/words-he-coined",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/life/the-strenuous-life",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/memorial-day",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/memorial-day-timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/myths",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/myths/misquotes",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/new-years-day",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/new-years-day-timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/new-york-politics",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/new-york-politics/alice-lee",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/new-york-politics/assembly",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/new-york-politics/assembly-years",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/new-york-politics/convention-1884",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/new-york-politics/double-tragedy",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/new-york-politics/naval-war-of-1812",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/new-york-politics/timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/alice-lee",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/alice-longworth",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/alice-longworth/1905-asia-mission",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/alice-longworth/complex-legacy",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/alice-longworth/in-her-words",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/alice-longworth/washington-power-broker",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/archibald",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/bamie",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/bamie/political-adviser",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/bill-sewall",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/booker-t-washington",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/candido-rondon",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/corinne",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/colonial-gardens",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/first-lady",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/in-her-words",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/later-years",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/presidential-china",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/running-the-white-house",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/white-house-renovation",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/eleanor",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/elliott",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/ethel",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/ethel/world-war-i",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/george-bird-grinnell",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/geronimo",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/gifford-pinchot",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/henry-cabot-lodge",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/jacob-riis",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/john-muir",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/kermit",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/leonard-wood",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/marquis-de-mores",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/mittie",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/quanah-parker",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/quentin",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/ted-jr",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/ted-jr.html",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/theodore-sr",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/william-howard-taft",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/woodrow-wilson",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency/african-safari",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency/assassination-attempt",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency/bull-moose",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency/bull-moose/platform",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency/death",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency/final-visit-medora",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency/man-in-the-arena",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency/new-nationalism",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency/overview",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency/quentin",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency/river-of-doubt",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency/ten-facts",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency/timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency/world-war-i",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/pre-presidency-political-accomplishments",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency-timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/1912-split/",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/booker-t-washington",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/brownsville",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/bully-pulpit",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/cabinet",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/coal-strike",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/conservation",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/conservation/antiquities-act",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/conservation/bird-reserves",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/conservation/gifford-pinchot",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/conservation/governors-conference",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/conservation/john-muir",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/conservation/midnight-forests",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/conservation/national-forests",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/conservation/national-monuments",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/conservation/national-parks",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/conservation/overview",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/conservation/reclamation",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/elections",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/executive-actions",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/executive-actions/action",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/executive-actions/stories",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/executive-actions/story",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/executive-actions/then-and-now",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/executive-power",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/first-term",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/food-and-drug",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/foreign-policy",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/great-white-fleet",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/indian-policy",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/japan",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/nobel-peace-prize",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/overview",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/panama-canal",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/race",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/railroad-regulation",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/roosevelt-corollary",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/second-term",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/square-deal",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/strenuous-life-in-office",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/ten-facts",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/trust-busting",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/white-house-family",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/white-house-family/pets",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/white-house-family/pets.html",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/white-house-family/white-house-gang",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/white-house-workers",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/quotes",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/quotes/citizenship",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/quotes/conservation",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/quotes/family",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/quotes/leadership",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/quotes/misquotes",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/quotes/strenuous-life",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/assistant-navy-secretary",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/becoming-president",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/boone-and-crockett",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/buffalo-soldiers",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/civil-service",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/edith-roosevelt",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/governor",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/jacob-riis",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/overview",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/police-commissioner",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/rough-riders",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/rough-riders/who-were-they",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/sagamore-hill",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/san-juan-hill",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/spanish-american-war",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/ten-facts",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/rise-to-power/vice-presidency",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/speeches",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/speeches/confession-of-faith",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/speeches/first-annual-message",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/speeches/inaugural",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/speeches/man-in-the-arena",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/speeches/man-in-the-arena.html",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/speeches/new-nationalism",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/speeches/strenuous-life",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/strenuous-life",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/strenuous-life/",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/strenuous-life/athletics",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/strenuous-life/explorer",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/strenuous-life/hunter",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/teddy-nickname",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/ten-things",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/thanksgiving",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/thanksgiving-timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/topics/rough-riders",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/tr-importance",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/tr-mount-rushmore",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/tr-save-the-bison",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/tr-shot",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/valentines-day",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/valentines-day-timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/veterans-day",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/veterans-day-timeline",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/unsolicited-submission-policy",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/updates",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/video",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/virtual",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/accessibility",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/activities",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/biking",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/camping",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/directions",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/directions/ev-charging",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/eat",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/exhibits",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/exhibits/artificial-intelligence",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/exhibits/diary",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/exhibits/kennerly",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/exhibits/main",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/faq",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/faq/accessibility",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/faq/during-your-visit",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/faq/food-drink",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/faq/getting-here",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/faq/photography",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/faq/rules-safety",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/faq/tickets",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/general-aviation",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/groups",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/groups/field-trips",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/hiking",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/hours",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/hunting-fishing",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/i-94",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/10-day-denver-salt-lake-city",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/13-day-denver-wyoming/print",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/3-days-medora",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/4-days-north-dakota",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/4-days-north-dakota/print",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/7-day-billings-bismarck/print",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/7-day-bismarck-rapid-city",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/7-day-bismarck-rapid-city/print",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/black-hills-loop",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/chicago-badlands",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/conservation",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/dinosaurs",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/enchanted-highway",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/north-on-29",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/one-day",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/presidential-libraries",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/river-road",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/roosevelt-triangle",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/seattle-badlands",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/sturgis-medora",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/trs-badlands",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/weekend-drives",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/weekend-drives/bismarck",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/weekend-drives/fargo",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/weekend-drives/minneapolis",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/itineraries/weekend-drives/winnipeg",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/little-missouri-river",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/lodging",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/lodging/availability",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/maps",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/maps/campus",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/maps/print",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/medora",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/medora/history",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/national-park",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/national-park/audio-tour",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/national-park/elkhorn-ranch",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/national-park/geology",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/national-park/trip-planner",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/one-medora",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/outdoors",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/planner",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/roosevelt-in-medora",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/scenic-drives",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/shopping",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/stargazing",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/stargazing/northern-lights",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/teddy-trail",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/tickets/plan-ahead",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/tours",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/trolley",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/weather",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/visit/wildlife",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/volunteer",
-          "text": "Make a Donation"
-        },
-        {
-          "page": "https://www.trlibrary.com/vote",
-          "text": "Make a Donation"
         }
       ]
     },
@@ -4193,20 +957,6 @@
       ]
     },
     {
-      "url": "https://library.uta.edu/digitalgallery/img/10020750",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": "https://mavmatrix.uta.edu/do/search/?q=10020750",
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/presidency/square-deal",
-          "text": "A.C. Greene Papers, University of Texas at Arlington Libraries. \u201cProgram for banquet held in honor of President Theodore"
-        }
-      ]
-    },
-    {
       "url": "https://loc.gov/pictures/resource/cph.3a51810/",
       "status": 403,
       "error": null,
@@ -4217,20 +967,6 @@
         {
           "page": "https://www.trlibrary.com/tr/tr-importance",
           "text": "Cutting up hogs - removing hams and shoulders, Swift & Co.\u2019s packing house, Chicago, U.S.A. Library of Congress."
-        }
-      ]
-    },
-    {
-      "url": "https://mydakotan.com/2026/10/north-dakota-tourism-spending-climbs-12-as-presidential-library-draws-100000-visitors/",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/press/clips",
-          "text": "North Dakota Tourism Spending Climbs 12% as Presidential Library Draws 100,000 Visitors"
         }
       ]
     },
@@ -4403,20 +1139,6 @@
       ]
     },
     {
-      "url": "https://www.axios.com/2026/04/16/bank-of-america-theodore-roosevelt-library-gift",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/press/clips",
-          "text": "Bank of America's $5M gift to new Teddy Roosevelt library"
-        }
-      ]
-    },
-    {
       "url": "https://www.bloomberg.com/news/articles/2026-06-25/ken-griffin-joins-billionaire-donors-to-roosevelt-library-in-badlands",
       "status": 403,
       "error": null,
@@ -4483,6 +1205,20 @@
         {
           "page": "https://www.trlibrary.com/press/clips",
           "text": "Conversation with Secretary Burgum and Brian Moynihan, moderated by Ed O'Keefe"
+        }
+      ]
+    },
+    {
+      "url": "https://www.farmprogress.com/commentary/teddy-roosevelt-s-conservation-contributions-",
+      "status": 403,
+      "error": null,
+      "internal": false,
+      "final_url": null,
+      "blocked": "Cloudflare bot protection",
+      "sources": [
+        {
+          "page": "https://www.trlibrary.com/press/clips",
+          "text": "Teddy Roosevelt's conservation contributions"
         }
       ]
     },
@@ -5725,20 +2461,6 @@
       ]
     },
     {
-      "url": "https://www.newcity.com/2026/07/22/a-rough-rider-rides-again-in-the-badlands-the-theodore-roosevelt-presidential-library/",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/press/clips",
-          "text": "A Rough Rider Rides Again in the Badlands: The Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "url": "https://www.newsfromthestates.com/article/5-north-dakota-stories-watch-2026",
       "status": 403,
       "error": null,
@@ -6339,6 +3061,24 @@
       ]
     },
     {
+      "url": "https://www.theodorerooseveltcenter.org/digital-library/resource-type/diary",
+      "status": 404,
+      "error": null,
+      "internal": false,
+      "final_url": null,
+      "blocked": "Cloudflare bot protection",
+      "sources": [
+        {
+          "page": "https://www.trlibrary.com/tr/new-york-politics/double-tragedy",
+          "text": "diary entry"
+        },
+        {
+          "page": "https://www.trlibrary.com/tr/people/bill-sewall",
+          "text": "Roosevelt's Diaries"
+        }
+      ]
+    },
+    {
       "url": "https://www.theodorerooseveltcenter.org/digital-library/resource-type/photograph",
       "status": 404,
       "error": null,
@@ -6415,48 +3155,6 @@
       ]
     },
     {
-      "url": "https://www.theodorerooseveltcenter.org/encyclopedia/nature-and-conservation",
-      "status": 404,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/homes-and-places/pine-knot",
-          "text": "Roosevelt's Love of Nature"
-        }
-      ]
-    },
-    {
-      "url": "https://www.theodorerooseveltcenter.org/encyclopedia/personal-life/elkhorn-ranch",
-      "status": 404,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/post-presidency/final-visit-medora",
-          "text": "Elkhorn Ranch"
-        }
-      ]
-    },
-    {
-      "url": "https://www.theodorerooseveltcenter.org/encyclopedia/presidency",
-      "status": 404,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/family/fdr-connection",
-          "text": "Two Presidents, One Dynasty"
-        }
-      ]
-    },
-    {
       "url": "https://www.theodorerooseveltcenter.org/subject/conservation",
       "status": 404,
       "error": null,
@@ -6479,6 +3177,20 @@
         {
           "page": "https://www.trlibrary.com/tr/conservation/quotes.html",
           "text": "Conservation Encyclopedia"
+        }
+      ]
+    },
+    {
+      "url": "https://www.theodorerooseveltcenter.org/subject/progressive-party",
+      "status": 404,
+      "error": null,
+      "internal": false,
+      "final_url": null,
+      "blocked": "Cloudflare bot protection",
+      "sources": [
+        {
+          "page": "https://www.trlibrary.com/tr/people/william-howard-taft",
+          "text": "The Progressive Party and 1912 Election"
         }
       ]
     },
@@ -6601,20 +3313,6 @@
       ]
     },
     {
-      "url": "https://www.theodorerooseveltcenter.org/timelines/roosevelt-badlands",
-      "status": 404,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/people/marquis-de-mores",
-          "text": "Roosevelt in the Badlands Timeline"
-        }
-      ]
-    },
-    {
       "url": "https://www.theodorerooseveltcenter.org/timothy-rules/life-theodore-roosevelt",
       "status": 404,
       "error": null,
@@ -6629,6 +3327,24 @@
       ]
     },
     {
+      "url": "https://www.travelandleisure.com/theodore-roosevelt-presidential-library-12007819",
+      "status": 403,
+      "error": null,
+      "internal": false,
+      "final_url": null,
+      "blocked": "Cloudflare bot protection",
+      "sources": [
+        {
+          "page": "https://www.trlibrary.com/about/press/quotes",
+          "text": "Read in Travel + Leisure"
+        },
+        {
+          "page": "https://www.trlibrary.com/press/clips",
+          "text": "A New Museum in the North Dakota Badlands Brings Theodore Roosevelt's Life (and Love of Nature) to Life"
+        }
+      ]
+    },
+    {
       "url": "https://www.washingtonpost.com/politics/2026/07/01/trump-honor-president-he-sees-peer-theodore-roosevelt/",
       "status": 403,
       "error": null,
@@ -6639,154 +3355,6 @@
         {
           "page": "https://www.trlibrary.com/press/clips",
           "text": "Trump honors a president he sees as a peer \u2014 Theodore Roosevelt"
-        }
-      ]
-    },
-    {
-      "url": "https://www.whitehousehistory.org/",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/homes-and-places/white-house",
-          "text": "White House Historical Association"
-        }
-      ]
-    },
-    {
-      "url": "https://www.whitehousehistory.org/memoirs-of-isabella-hagner-1901-1905",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/first-lady",
-          "text": "White House Historical Association,Memoirs of Isabella Hagner, 1901\u20131905"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/presidential-china",
-          "text": "White House Historical Association, Memoirs of Isabella Hagner, 1901\u20131905"
-        },
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/running-the-white-house",
-          "text": "White House Historical Association, Memoirs of Isabella Hagner, 1901\u20131905"
-        }
-      ]
-    },
-    {
-      "url": "https://www.whitehousehistory.org/official-white-house-china-from-the-18th-to-the-21st-centuries",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/presidential-china",
-          "text": "White House Historical Association, Official White House China, from the 18th to the 21st Centuries (excerpt, with Archi"
-        }
-      ]
-    },
-    {
-      "url": "https://www.whitehousehistory.org/president-kennedys-rose-garden",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/colonial-gardens",
-          "text": "White House Historical Association, President Kennedy's Rose Garden"
-        }
-      ]
-    },
-    {
-      "url": "https://www.whitehousehistory.org/press-room/press-backgrounders/history-of-white-house-thanksgiving-traditions",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/thanksgiving",
-          "text": "White House Thanksgiving traditions"
-        }
-      ]
-    },
-    {
-      "url": "https://www.whitehousehistory.org/press-room/press-timelines/white-house-china-service",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/presidential-china",
-          "text": "White House Historical Association, White House China Service (timeline)"
-        }
-      ]
-    },
-    {
-      "url": "https://www.whitehousehistory.org/the-west-garden",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/colonial-gardens",
-          "text": "White House Historical Association, The West Garden"
-        }
-      ]
-    },
-    {
-      "url": "https://www.whitehousehistory.org/the-white-house-collection-research-sources-in-the-office-of-the-curator",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/presidential-china",
-          "text": "White House Historical Association, The White House Collection, Research Sources in the Office of the Curator"
-        }
-      ]
-    },
-    {
-      "url": "https://www.whitehousehistory.org/theodore-roosevelts-white-house",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/running-the-white-house",
-          "text": "William Seale, Theodore Roosevelt's White House, White House History No. 11"
-        }
-      ]
-    },
-    {
-      "url": "https://www.whitehousehistory.org/when-the-white-house-had-a-greenhouse",
-      "status": 403,
-      "error": null,
-      "internal": false,
-      "final_url": null,
-      "blocked": "Cloudflare bot protection",
-      "sources": [
-        {
-          "page": "https://www.trlibrary.com/tr/people/edith-roosevelt/colonial-gardens",
-          "text": "White House Historical Association, When the White House Had a Greenhouse"
         }
       ]
     },
@@ -7017,6 +3585,37 @@
       ]
     },
     {
+      "word": "there'd",
+      "suggestion": "there's",
+      "count": 6,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/bill-kristol",
+          "title": "Bill Kristol | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/doris-kearns-goodwin-presidential-stories-trpl-and-enduring-lessons-theodore",
+          "title": "Doris Kearns Goodwin: Presidential Stories, the TRPL, and the Enduring Lessons of Theodore Roosevelt | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-4-first-lady-modern-presidency-panel-hosted-kjersti-armstrong",
+          "title": "Live from the TRPL #4: The First Lady & the Modern Presidency: A Panel Hosted by Kjersti Armstrong | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/lucas-st-clair-honey-humility-and-making-national-monument",
+          "title": "Lucas St. Clair: Honey, Humility, and the Making of a National Monument | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/richard-haass",
+          "title": "Richard Haass | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/temple-grandin",
+          "title": "Temple Grandin | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
       "word": "debutante",
       "suggestion": "d\u00e9butante",
       "count": 5,
@@ -7086,33 +3685,6 @@
       ]
     },
     {
-      "word": "there'd",
-      "suggestion": "there's",
-      "count": 5,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/bill-kristol",
-          "title": "Bill Kristol | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/doris-kearns-goodwin-presidential-stories-trpl-and-enduring-lessons-theodore",
-          "title": "Doris Kearns Goodwin: Presidential Stories, the TRPL, and the Enduring Lessons of Theodore Roosevelt | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/lucas-st-clair-honey-humility-and-making-national-monument",
-          "title": "Lucas St. Clair: Honey, Humility, and the Making of a National Monument | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/richard-haass",
-          "title": "Richard Haass | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/temple-grandin",
-          "title": "Temple Grandin | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "word": "trailheads",
       "suggestion": "railheads",
       "count": 5,
@@ -7142,19 +3714,19 @@
       "pages": [
         {
           "url": "https://www.trlibrary.com/tr/new-york-politics/timeline",
-          "title": "Timeline of TR\u2019s Life | Theodore Roosevelt Presidential Library"
+          "title": "Theodore Roosevelt's Life Timeline: Key Dates, 1858\u20131919 | Theodore Roosevelt Presidential Library"
         },
         {
           "url": "https://www.trlibrary.com/tr/post-presidency/timeline",
-          "title": "Timeline of TR\u2019s Life | Theodore Roosevelt Presidential Library"
+          "title": "Theodore Roosevelt's Life Timeline: Key Dates, 1858\u20131919 | Theodore Roosevelt Presidential Library"
         },
         {
           "url": "https://www.trlibrary.com/tr/rise-to-power/timeline",
-          "title": "Timeline of TR\u2019s Life | Theodore Roosevelt Presidential Library"
+          "title": "Theodore Roosevelt's Life Timeline: Key Dates, 1858\u20131919 | Theodore Roosevelt Presidential Library"
         },
         {
           "url": "https://www.trlibrary.com/tr/timeline",
-          "title": "Timeline of TR\u2019s Life | Theodore Roosevelt Presidential Library"
+          "title": "Theodore Roosevelt's Life Timeline: Key Dates, 1858\u20131919 | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -7214,19 +3786,19 @@
       "pages": [
         {
           "url": "https://www.trlibrary.com/tr/new-york-politics/timeline",
-          "title": "Timeline of TR\u2019s Life | Theodore Roosevelt Presidential Library"
+          "title": "Theodore Roosevelt's Life Timeline: Key Dates, 1858\u20131919 | Theodore Roosevelt Presidential Library"
         },
         {
           "url": "https://www.trlibrary.com/tr/post-presidency/timeline",
-          "title": "Timeline of TR\u2019s Life | Theodore Roosevelt Presidential Library"
+          "title": "Theodore Roosevelt's Life Timeline: Key Dates, 1858\u20131919 | Theodore Roosevelt Presidential Library"
         },
         {
           "url": "https://www.trlibrary.com/tr/rise-to-power/timeline",
-          "title": "Timeline of TR\u2019s Life | Theodore Roosevelt Presidential Library"
+          "title": "Theodore Roosevelt's Life Timeline: Key Dates, 1858\u20131919 | Theodore Roosevelt Presidential Library"
         },
         {
           "url": "https://www.trlibrary.com/tr/timeline",
-          "title": "Timeline of TR\u2019s Life | Theodore Roosevelt Presidential Library"
+          "title": "Theodore Roosevelt's Life Timeline: Key Dates, 1858\u20131919 | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -7303,6 +3875,28 @@
       ]
     },
     {
+      "word": "defunding",
+      "suggestion": "defending",
+      "count": 3,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/rahm-emanuel-fight-center-and-winning-lottery-life",
+          "title": "Rahm Emanuel: A Fight for the Center and Winning the Lottery of Life | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "glamping",
+      "suggestion": "clamping",
+      "count": 3,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-5-trs-legacy-government-senators-kirsten-gillibrand-and-kevin-cramer",
+          "title": "Live from the TRPL #5: TR\u2019s Legacy in Government with Senators Kirsten Gillibrand and Kevin Cramer | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
       "word": "homeschooled",
       "suggestion": "homeschooler",
       "count": 3,
@@ -7367,21 +3961,6 @@
       ]
     },
     {
-      "word": "rehumanize",
-      "suggestion": "dehumanize",
-      "count": 3,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen",
-          "title": "Good Citizen Podcast | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/dana-milbank-retreat-restore-rehumanize",
-          "title": "Dana Milbank: Retreat, Restore, Rehumanize | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "word": "renewables",
       "suggestion": "renewable",
       "count": 3,
@@ -7412,6 +3991,21 @@
         {
           "url": "https://www.trlibrary.com/tr/people/alice-longworth/in-her-words",
           "title": "Alice Roosevelt Longworth in Her Own Words | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "strivers",
+      "suggestion": "strikers",
+      "count": 3,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-3-arthur-brooks-and-robbie-lauf-strenuous-life-and-search-happiness",
+          "title": "Live from the TRPL #3: Arthur Brooks and Robbie Lauf on The Strenuous Life and the Search for Happiness | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/michael-luo",
+          "title": "Michael Luo | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -7539,6 +4133,21 @@
       ]
     },
     {
+      "word": "funders",
+      "suggestion": "founders",
+      "count": 2,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/staff-members/julianna-gonzaba",
+          "title": "Julianna Gonzaba | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/visit/survey",
+          "title": "Visitor Survey | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
       "word": "fundraise",
       "suggestion": "fundraiser",
       "count": 2,
@@ -7583,6 +4192,21 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/edward-okeefe",
           "title": "Edward O'Keefe | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "naivete",
+      "suggestion": "naivet\u00e9",
+      "count": 2,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/christiana-figueres",
+          "title": "Christiana Figueres | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-6-built-endure-sustainability-stewardship-and-making-trpl",
+          "title": "Live from the TRPL #6: Built to Endure: Sustainability, Stewardship, and the Making of TRPL | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -7661,6 +4285,28 @@
       ]
     },
     {
+      "word": "rehumanize",
+      "suggestion": "dehumanize",
+      "count": 2,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/dana-milbank-retreat-restore-rehumanize",
+          "title": "Dana Milbank: Retreat, Restore, Rehumanize | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "sapiens",
+      "suggestion": "sapient",
+      "count": 2,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-3-arthur-brooks-and-robbie-lauf-strenuous-life-and-search-happiness",
+          "title": "Live from the TRPL #3: Arthur Brooks and Robbie Lauf on The Strenuous Life and the Search for Happiness | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
       "word": "snowmelt",
       "suggestion": "snowbelt",
       "count": 2,
@@ -7672,6 +4318,17 @@
         {
           "url": "https://www.trlibrary.com/visit/little-missouri-river",
           "title": "The Little Missouri River | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "striver",
+      "suggestion": "strive",
+      "count": 2,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-3-arthur-brooks-and-robbie-lauf-strenuous-life-and-search-happiness",
+          "title": "Live from the TRPL #3: Arthur Brooks and Robbie Lauf on The Strenuous Life and the Search for Happiness | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -8080,6 +4737,17 @@
       ]
     },
     {
+      "word": "crypto",
+      "suggestion": "crypt",
+      "count": 1,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/rahm-emanuel-fight-center-and-winning-lottery-life",
+          "title": "Rahm Emanuel: A Fight for the Center and Winning the Lottery of Life | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
       "word": "dawnland",
       "suggestion": "downland",
       "count": 1,
@@ -8147,7 +4815,7 @@
     },
     {
       "word": "educa",
-      "suggestion": "educt",
+      "suggestion": "educe",
       "count": 1,
       "pages": [
         {
@@ -8296,17 +4964,6 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/karl-rove-historic-redemption-hard-work-politics-and-essential-nature",
           "title": "Karl Rove: Historic Redemption, the Hard Work of Politics, and the Essential Nature of Americans | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "funders",
-      "suggestion": "founders",
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/staff-members/julianna-gonzaba",
-          "title": "Julianna Gonzaba | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -8487,6 +5144,17 @@
       ]
     },
     {
+      "word": "lemay",
+      "suggestion": "leman",
+      "count": 1,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/tr/presidency/conservation/national-parks",
+          "title": "National Parks Established Under Theodore Roosevelt | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
       "word": "libs",
       "suggestion": "lies",
       "count": 1,
@@ -8564,6 +5232,17 @@
       ]
     },
     {
+      "word": "meds",
+      "suggestion": "mess",
+      "count": 1,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-3-arthur-brooks-and-robbie-lauf-strenuous-life-and-search-happiness",
+          "title": "Live from the TRPL #3: Arthur Brooks and Robbie Lauf on The Strenuous Life and the Search for Happiness | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
       "word": "memoriae",
       "suggestion": "memorial",
       "count": 1,
@@ -8608,17 +5287,6 @@
       ]
     },
     {
-      "word": "naivete",
-      "suggestion": "naivet\u00e9",
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/christiana-figueres",
-          "title": "Christiana Figueres | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "word": "nasa",
       "suggestion": "nasal",
       "count": 1,
@@ -8648,6 +5316,17 @@
         {
           "url": "https://www.trlibrary.com/tr/people/booker-t-washington",
           "title": "Booker T. Washington: The Dinner That Shook America | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "neuroscientists",
+      "suggestion": "neuroscientist",
+      "count": 1,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-3-arthur-brooks-and-robbie-lauf-strenuous-life-and-search-happiness",
+          "title": "Live from the TRPL #3: Arthur Brooks and Robbie Lauf on The Strenuous Life and the Search for Happiness | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -8840,7 +5519,7 @@
     },
     {
       "word": "placemaking",
-      "suggestion": "pacemaking",
+      "suggestion": "peacemaking",
       "count": 1,
       "pages": [
         {
@@ -8857,6 +5536,17 @@
         {
           "url": "https://www.trlibrary.com/visit/shopping",
           "title": "Shopping | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "pooey",
+      "suggestion": "gooey",
+      "count": 1,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/rahm-emanuel-fight-center-and-winning-lottery-life",
+          "title": "Rahm Emanuel: A Fight for the Center and Winning the Lottery of Life | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -9092,17 +5782,6 @@
       ]
     },
     {
-      "word": "strivers",
-      "suggestion": "strikers",
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/michael-luo",
-          "title": "Michael Luo | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "word": "strobing",
       "suggestion": "stroking",
       "count": 1,
@@ -9132,6 +5811,17 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/admiral-stavridis-nato-and-world-2084-future-warning",
           "title": "Admiral Stavridis on NATO and the World of 2084: The Future is a Warning | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "synaptically",
+      "suggestion": "synoptically",
+      "count": 1,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-3-arthur-brooks-and-robbie-lauf-strenuous-life-and-search-happiness",
+          "title": "Live from the TRPL #3: Arthur Brooks and Robbie Lauf on The Strenuous Life and the Search for Happiness | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -9176,6 +5866,17 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/eric-liu",
           "title": "Eric Liu | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "thougt",
+      "suggestion": "thought",
+      "count": 1,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-5-trs-legacy-government-senators-kirsten-gillibrand-and-kevin-cramer",
+          "title": "Live from the TRPL #5: TR\u2019s Legacy in Government with Senators Kirsten Gillibrand and Kevin Cramer | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -9236,7 +5937,7 @@
     },
     {
       "word": "uncreate",
-      "suggestion": "uncreated",
+      "suggestion": "uncrate",
       "count": 1,
       "pages": [
         {
@@ -9269,7 +5970,7 @@
     },
     {
       "word": "ungrazed",
-      "suggestion": "unglazed",
+      "suggestion": "ungraded",
       "count": 1,
       "pages": [
         {
@@ -9360,7 +6061,7 @@
     {
       "word": "transformative",
       "suggestion": null,
-      "count": 29,
+      "count": 31,
       "pages": [
         {
           "url": "https://www.trlibrary.com/about/press/press-releases/conocophillips-contributes-2-million-theodore-roosevelt-presidential",
@@ -9381,6 +6082,14 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/leah-hunt-hendrix",
           "title": "Leah Hunt-Hendrix | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-4-first-lady-modern-presidency-panel-hosted-kjersti-armstrong",
+          "title": "Live from the TRPL #4: The First Lady & the Modern Presidency: A Panel Hosted by Kjersti Armstrong | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-5-trs-legacy-government-senators-kirsten-gillibrand-and-kevin-cramer",
+          "title": "Live from the TRPL #5: TR\u2019s Legacy in Government with Senators Kirsten Gillibrand and Kevin Cramer | Theodore Roosevelt Presidential Library"
         },
         {
           "url": "https://www.trlibrary.com/staff-members/chris-blackwell",
@@ -9463,7 +6172,7 @@
     {
       "word": "impactful",
       "suggestion": null,
-      "count": 20,
+      "count": 26,
       "pages": [
         {
           "url": "https://www.trlibrary.com/about/press/press-releases/theodore-roosevelt-presidential-library-unveils-edmund-morris-archives",
@@ -9498,6 +6207,14 @@
           "title": "Laurie Leshin | Theodore Roosevelt Presidential Library"
         },
         {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-4-first-lady-modern-presidency-panel-hosted-kjersti-armstrong",
+          "title": "Live from the TRPL #4: The First Lady & the Modern Presidency: A Panel Hosted by Kjersti Armstrong | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-6-built-endure-sustainability-stewardship-and-making-trpl",
+          "title": "Live from the TRPL #6: Built to Endure: Sustainability, Stewardship, and the Making of TRPL | Theodore Roosevelt Presidential Library"
+        },
+        {
           "url": "https://www.trlibrary.com/podcast/good-citizen/meg-whitman",
           "title": "Meg Whitman | Theodore Roosevelt Presidential Library"
         },
@@ -9526,7 +6243,7 @@
     {
       "word": "cetera",
       "suggestion": null,
-      "count": 19,
+      "count": 24,
       "pages": [
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/adam-met-climate-action-musical-stardom-and-art-building-movement",
@@ -9543,6 +6260,10 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/mark-bittman",
           "title": "Mark Bittman | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/rahm-emanuel-fight-center-and-winning-lottery-life",
+          "title": "Rahm Emanuel: A Fight for the Center and Winning the Lottery of Life | Theodore Roosevelt Presidential Library"
         },
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/ruth-whippman",
@@ -9563,6 +6284,104 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/tony-porter",
           "title": "Tony Porter | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "creativecommons",
+      "suggestion": null,
+      "count": 18,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/tr/badlands/landscape",
+          "title": "The Badlands Landscape: The Land That Changed Roosevelt | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/tr/badlands/where-to-see",
+          "title": "Where to See Theodore Roosevelt's North Dakota | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/tr/complex-legacy/equestrian-statue",
+          "title": "The Equestrian Statue: How We Remember Complex Historical Figures | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/tr/homes-and-places/tr-national-park",
+          "title": "Theodore Roosevelt National Park | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/tr/legacy/teddy-bear",
+          "title": "The Teddy Bear: A Moment of Mercy That Became an Icon | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/tr/people/marquis-de-mores",
+          "title": "The Marquis de Mor\u00e8s: The Romantic Rival | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/tr/post-presidency/assassination-attempt",
+          "title": "The Assassination Attempt: Milwaukee, October 14, 1912 | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/tr/post-presidency/death",
+          "title": "Death at Sagamore Hill: January 6, 1919 | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/visit/i-94",
+          "title": "Best Stops on I-94 in North Dakota | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/visit/itineraries/chicago-badlands",
+          "title": "Chicago to the Badlands: The Long Way | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/visit/itineraries/one-day",
+          "title": "One Day at the Library | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/visit/itineraries/trs-badlands",
+          "title": "TR's Badlands: The Places That Made Him | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/visit/roosevelt-in-medora",
+          "title": "Roosevelt in Medora | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "wellbeing",
+      "suggestion": null,
+      "count": 16,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/christiana-figueres",
+          "title": "Christiana Figueres | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/dr-vivek-murthy-loneliness-staying-human-and-what-true-success-looks",
+          "title": "Dr. Vivek Murthy on Loneliness, Staying Human, and What True Success Looks Like | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-5-trs-legacy-government-senators-kirsten-gillibrand-and-kevin-cramer",
+          "title": "Live from the TRPL #5: TR\u2019s Legacy in Government with Senators Kirsten Gillibrand and Kevin Cramer | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/mark-bittman",
+          "title": "Mark Bittman | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/tr/new-york-politics/timeline",
+          "title": "Theodore Roosevelt's Life Timeline: Key Dates, 1858\u20131919 | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/tr/post-presidency/timeline",
+          "title": "Theodore Roosevelt's Life Timeline: Key Dates, 1858\u20131919 | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/tr/rise-to-power/timeline",
+          "title": "Theodore Roosevelt's Life Timeline: Key Dates, 1858\u20131919 | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/tr/timeline",
+          "title": "Theodore Roosevelt's Life Timeline: Key Dates, 1858\u20131919 | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -9602,44 +6421,9 @@
       ]
     },
     {
-      "word": "wellbeing",
-      "suggestion": null,
-      "count": 15,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/christiana-figueres",
-          "title": "Christiana Figueres | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/dr-vivek-murthy-loneliness-staying-human-and-what-true-success-looks",
-          "title": "Dr. Vivek Murthy on Loneliness, Staying Human, and What True Success Looks Like | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/mark-bittman",
-          "title": "Mark Bittman | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/tr/new-york-politics/timeline",
-          "title": "Timeline of TR\u2019s Life | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/tr/post-presidency/timeline",
-          "title": "Timeline of TR\u2019s Life | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/tr/rise-to-power/timeline",
-          "title": "Timeline of TR\u2019s Life | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/tr/timeline",
-          "title": "Timeline of TR\u2019s Life | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
       "word": "pushback",
       "suggestion": null,
-      "count": 13,
+      "count": 14,
       "pages": [
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/anne-therese-gennari",
@@ -9656,6 +6440,10 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/katherine-gehl",
           "title": "Katherine Gehl | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/rahm-emanuel-fight-center-and-winning-lottery-life",
+          "title": "Rahm Emanuel: A Fight for the Center and Winning the Lottery of Life | Theodore Roosevelt Presidential Library"
         },
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/ruth-whippman",
@@ -9833,11 +6621,15 @@
     {
       "word": "outdoorsman",
       "suggestion": null,
-      "count": 8,
+      "count": 9,
       "pages": [
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/dana-milbank-retreat-restore-rehumanize",
           "title": "Dana Milbank: Retreat, Restore, Rehumanize | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-3-arthur-brooks-and-robbie-lauf-strenuous-life-and-search-happiness",
+          "title": "Live from the TRPL #3: Arthur Brooks and Robbie Lauf on The Strenuous Life and the Search for Happiness | Theodore Roosevelt Presidential Library"
         },
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/lucas-st-clair-honey-humility-and-making-national-monument",
@@ -9928,6 +6720,37 @@
       ]
     },
     {
+      "word": "grandkids",
+      "suggestion": null,
+      "count": 7,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/carrie-besnette-hauser-phd",
+          "title": "Carrie Besnette Hauser, PhD | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/christiana-figueres",
+          "title": "Christiana Figueres | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-2-johnny-morris-and-gov-kelly-armstrong-conservation-commerce-and",
+          "title": "Live from the TRPL #2: Johnny Morris and Gov. Kelly Armstrong on Conservation, Commerce, and the Great Outdoors | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-6-built-endure-sustainability-stewardship-and-making-trpl",
+          "title": "Live from the TRPL #6: Built to Endure: Sustainability, Stewardship, and the Making of TRPL | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/secretary-deb-haaland",
+          "title": "Secretary Deb Haaland | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/senator-mitt-romney-formative-moments-presidential-leadership-and-question",
+          "title": "Senator Mitt Romney on Formative Moments, Presidential Leadership, and the Question of Legacy | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
       "word": "intergenerational",
       "suggestion": null,
       "count": 7,
@@ -10001,33 +6824,6 @@
         {
           "url": "https://www.trlibrary.com/visit/itineraries/conservation",
           "title": "The Conservation Trip: What Roosevelt Saved | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "grandkids",
-      "suggestion": null,
-      "count": 6,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/carrie-besnette-hauser-phd",
-          "title": "Carrie Besnette Hauser, PhD | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/christiana-figueres",
-          "title": "Christiana Figueres | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-2-johnny-morris-and-gov-kelly-armstrong-conservation-commerce-and",
-          "title": "Live from the TRPL #2: Johnny Morris and Gov. Kelly Armstrong on Conservation, Commerce, and the Great Outdoors | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/secretary-deb-haaland",
-          "title": "Secretary Deb Haaland | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/senator-mitt-romney-formative-moments-presidential-leadership-and-question",
-          "title": "Senator Mitt Romney on Formative Moments, Presidential Leadership, and the Question of Legacy | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -10182,6 +6978,33 @@
       ]
     },
     {
+      "word": "that'll",
+      "suggestion": null,
+      "count": 5,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/aloe-blacc",
+          "title": "Aloe Blacc | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/douglas-brinkley",
+          "title": "Douglas Brinkley | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/dr-vivek-murthy-loneliness-staying-human-and-what-true-success-looks",
+          "title": "Dr. Vivek Murthy on Loneliness, Staying Human, and What True Success Looks Like | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-2-johnny-morris-and-gov-kelly-armstrong-conservation-commerce-and",
+          "title": "Live from the TRPL #2: Johnny Morris and Gov. Kelly Armstrong on Conservation, Commerce, and the Great Outdoors | Theodore Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-3-arthur-brooks-and-robbie-lauf-strenuous-life-and-search-happiness",
+          "title": "Live from the TRPL #3: Arthur Brooks and Robbie Lauf on The Strenuous Life and the Search for Happiness | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
       "word": "biodiverse",
       "suggestion": null,
       "count": 4,
@@ -10302,29 +7125,6 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/leah-hunt-hendrix",
           "title": "Leah Hunt-Hendrix | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "that'll",
-      "suggestion": null,
-      "count": 4,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/aloe-blacc",
-          "title": "Aloe Blacc | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/douglas-brinkley",
-          "title": "Douglas Brinkley | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/dr-vivek-murthy-loneliness-staying-human-and-what-true-success-looks",
-          "title": "Dr. Vivek Murthy on Loneliness, Staying Human, and What True Success Looks Like | Theodore Roosevelt Presidential Library"
-        },
-        {
-          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-2-johnny-morris-and-gov-kelly-armstrong-conservation-commerce-and",
-          "title": "Live from the TRPL #2: Johnny Morris and Gov. Kelly Armstrong on Conservation, Commerce, and the Great Outdoors | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -10548,6 +7348,17 @@
       ]
     },
     {
+      "word": "umheimlich",
+      "suggestion": null,
+      "count": 3,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-3-arthur-brooks-and-robbie-lauf-strenuous-life-and-search-happiness",
+          "title": "Live from the TRPL #3: Arthur Brooks and Robbie Lauf on The Strenuous Life and the Search for Happiness | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
       "word": "underappreciated",
       "suggestion": null,
       "count": 3,
@@ -10577,11 +7388,11 @@
         },
         {
           "url": "https://www.trlibrary.com/tr/speeches/man-in-the-arena",
-          "title": "The Man in the Arena: Citizenship in a Republic | Theodore Roosevelt Presidential Library"
+          "title": "Man in the Arena Speech: Citizenship in a Republic | Theodore Roosevelt Presidential Library"
         },
         {
           "url": "https://www.trlibrary.com/tr/speeches/man-in-the-arena.html",
-          "title": "The Man in the Arena: Citizenship in a Republic | Theodore Roosevelt Presidential Library"
+          "title": "Man in the Arena Speech: Citizenship in a Republic | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -10697,6 +7508,17 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/katharine-hayhoe",
           "title": "Katharine Hayhoe | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "disincentivized",
+      "suggestion": null,
+      "count": 2,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-5-trs-legacy-government-senators-kirsten-gillibrand-and-kevin-cramer",
+          "title": "Live from the TRPL #5: TR\u2019s Legacy in Government with Senators Kirsten Gillibrand and Kevin Cramer | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -11615,6 +8437,17 @@
       ]
     },
     {
+      "word": "eccentrism",
+      "suggestion": null,
+      "count": 1,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/rahm-emanuel-fight-center-and-winning-lottery-life",
+          "title": "Rahm Emanuel: A Fight for the Center and Winning the Lottery of Life | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
       "word": "egoic",
       "suggestion": null,
       "count": 1,
@@ -11753,7 +8586,18 @@
       "pages": [
         {
           "url": "https://www.trlibrary.com/tr/tr-importance",
-          "title": "Why is Theodore Roosevelt Important? | Theodore Roosevelt Presidential Library"
+          "title": "What Was Theodore Roosevelt Known For? | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "handedly",
+      "suggestion": null,
+      "count": 1,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-3-arthur-brooks-and-robbie-lauf-strenuous-life-and-search-happiness",
+          "title": "Live from the TRPL #3: Arthur Brooks and Robbie Lauf on The Strenuous Life and the Search for Happiness | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -12484,6 +9328,17 @@
       ]
     },
     {
+      "word": "reimmigrated",
+      "suggestion": null,
+      "count": 1,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-3-arthur-brooks-and-robbie-lauf-strenuous-life-and-search-happiness",
+          "title": "Live from the TRPL #3: Arthur Brooks and Robbie Lauf on The Strenuous Life and the Search for Happiness | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
       "word": "reinitiated",
       "suggestion": null,
       "count": 1,
@@ -12623,17 +9478,6 @@
         {
           "url": "https://www.trlibrary.com/podcast/good-citizen/susannah-cahalan",
           "title": "Susannah Cahalan | Theodore Roosevelt Presidential Library"
-        }
-      ]
-    },
-    {
-      "word": "smartphone",
-      "suggestion": null,
-      "count": 1,
-      "pages": [
-        {
-          "url": "https://www.trlibrary.com/rangers-wanted",
-          "title": "Rangers Wanted | Theodore Roosevelt Presidential Library"
         }
       ]
     },
@@ -12957,6 +9801,17 @@
       ]
     },
     {
+      "word": "vipassana",
+      "suggestion": null,
+      "count": 1,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/live-trpl-3-arthur-brooks-and-robbie-lauf-strenuous-life-and-search-happiness",
+          "title": "Live from the TRPL #3: Arthur Brooks and Robbie Lauf on The Strenuous Life and the Search for Happiness | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
       "word": "vivants",
       "suggestion": null,
       "count": 1,
@@ -13019,6 +9874,17 @@
         {
           "url": "https://www.trlibrary.com/tr/presidency/conservation/gifford-pinchot",
           "title": "Gifford Pinchot: The Chief Forester and Architect of Conservation | Theodore Roosevelt Presidential Library"
+        }
+      ]
+    },
+    {
+      "word": "wokeism",
+      "suggestion": null,
+      "count": 1,
+      "pages": [
+        {
+          "url": "https://www.trlibrary.com/podcast/good-citizen/rahm-emanuel-fight-center-and-winning-lottery-life",
+          "title": "Rahm Emanuel: A Fight for the Center and Winning the Lottery of Life | Theodore Roosevelt Presidential Library"
         }
       ]
     },
